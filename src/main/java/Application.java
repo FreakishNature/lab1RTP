@@ -1,16 +1,10 @@
-import actors.Actor;
 import actors.ActorSystem;
-import actors.Handler;
-import com.fasterxml.jackson.core.JsonProcessingException;
-import com.fasterxml.jackson.databind.ObjectMapper;
-import model.*;
 
 
 import javax.ws.rs.client.Client;
 import javax.ws.rs.client.ClientBuilder;
 import javax.ws.rs.client.WebTarget;
 import javax.ws.rs.sse.SseEventSource;
-import java.util.PriorityQueue;
 import java.util.concurrent.TimeUnit;
 import static handlers.Handlers.*;
 
@@ -19,11 +13,11 @@ public class Application {
     private static String url = "http://localhost:4000/iot";
 
     public static void main(String[] args) throws InterruptedException {
-        actorSystem.createActor("dataReceiver", dataReceiver);
-        actorSystem.createActor("processor", processor);
-        actorSystem.createActor("forecaster_1",forecaster);
-        actorSystem.createActor("forecaster_2",forecaster);
-        actorSystem.createActor("printer",printer);
+        actorSystem.createActorGroup("dataReceiver", dataReceiver);
+        actorSystem.createActorGroup("processor", processor);
+        actorSystem.createActorGroup("forecaster_1",forecaster);
+        actorSystem.createActorGroup("forecaster_2",forecaster);
+        actorSystem.createActorGroup("printer",printer);
         actorSystem.start();
 
         Client client = ClientBuilder.newClient();
@@ -41,13 +35,6 @@ public class Application {
             Thread.sleep(3000);
         }
 
-
-
-
-
-//        actorSystem.getActor("dataReceiver");
         actorSystem.shutDown();
-
-//        String data = inboundSseEvent.readData();
     }
 }

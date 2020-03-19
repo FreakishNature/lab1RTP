@@ -22,11 +22,11 @@ public class ActorSystem {
         System.out.println("Actor " + deadActor.getActorName() + indexOfDeadActor + " was recreated");
     }
 
-    public void createActor(String name,Handler handler){
-        registry.put(name,new ActorGroup(name,this,handler));
+    public void createActorGroup(String name, Handler handler){
+        registry.put(name, new ActorGroup(name,this,handler));
     }
 
-    public void sendMessage(String toActor,Object msg){
+    public void sendMessage(String toActor, Object msg){
         if(msg == null) return;
 
         ActorGroup actorGroup = registry.get(toActor);
@@ -47,7 +47,7 @@ public class ActorSystem {
             }
             // removing actors on low load
             if(messageIsSend && actor.getInbox().isEmpty()){
-                    actorGroup.removeActor(actor);
+                actorGroup.removeActor(actor);
             }
         }
 
@@ -55,9 +55,7 @@ public class ActorSystem {
             actorGroup.addActor();
 
             // sending message to last created actor
-            actorGroup.getActors()
-                    .listIterator()
-                    .next()
+            actors.get(actors.size() - 1)
                     .getInbox()
                     .add(msg);
         }
@@ -68,9 +66,12 @@ public class ActorSystem {
         System.out.println("==========================");
         System.out.println("Load for each actor : ");
         registry.values().forEach( actorGroup ->
-                actorGroup.getActors().forEach(a ->
-                    System.out.println(a.getActorName() + " - load is - " + a.getInbox().size())
-                )
+            {
+                for(int i = 0 ; i < actorGroup.getActors().size(); i++){
+                    Actor actor = actorGroup.getActors().get(i);
+                    System.out.println(actor.getActorName() + "_" + i  + " - load is - " + actor.getInbox().size());
+                }
+            }
         );
         System.out.println("==========================");
 
@@ -88,7 +89,7 @@ public class ActorSystem {
         for (ActorGroup actorGroup : registry.values()) {
             for(Actor actor : actorGroup.getActors()){
                 actor.stopThread();
-                actor.join();
+//                actor.join();
             }
         }
     }

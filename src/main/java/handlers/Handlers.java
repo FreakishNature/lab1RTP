@@ -17,7 +17,6 @@ public class Handlers {
         public void receive(Object msg) throws Exception {
             if(msg == null) { return; }
             String data = msg.toString();
-//            system.getActor("processor").getInbox().add(data);
             system.sendMessage("processor",data);
         }
     };
@@ -27,7 +26,7 @@ public class Handlers {
         public void receive(Object msg) throws Exception {
             if(msg == null) { return; }
             if(msg.toString().contains("panic")){
-                throw new Exception();
+                throw new Exception("Panic exception");
             }
             try {
                 system.sendMessage("forecaster_1",
