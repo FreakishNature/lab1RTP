@@ -1,11 +1,13 @@
 package actors;
 
 import java.util.LinkedList;
+import java.util.Objects;
 import java.util.PriorityQueue;
 import java.util.Queue;
+import java.util.concurrent.ConcurrentLinkedQueue;
 
 public class Actor extends Thread{
-    private volatile Queue<Object> inbox;
+    private volatile ConcurrentLinkedQueue<Object> inbox;
     private String actorName;
     private Handler handler;
     private volatile boolean isRunning = true;
@@ -22,8 +24,7 @@ public class Actor extends Thread{
         handler.system = system;
         this.actorName = name;
         this.handler = handler;
-        this.inbox = new LinkedList<>();
-
+        this.inbox = new ConcurrentLinkedQueue<>();
     }
 
     Actor(Actor actor){
@@ -39,6 +40,7 @@ public class Actor extends Thread{
 
     @Override
     public void run(){
+
         while (isRunning){
             try{
                 handler.receive(!inbox.isEmpty() ? inbox.remove() : null);

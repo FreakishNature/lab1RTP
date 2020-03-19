@@ -153,10 +153,10 @@ public class Handlers {
         @Override
         public void receive(Object msg) throws Exception {
             if ( msg == null) return;
-            system.getLoad();
-//            System.out.println("--------------------------");
-//            System.out.println(msg);
-//            System.out.println("--------------------------");
+//            system.getLoad();
+            System.out.println("--------------------------");
+            System.out.println(msg);
+            System.out.println("--------------------------");
         }
     };
 

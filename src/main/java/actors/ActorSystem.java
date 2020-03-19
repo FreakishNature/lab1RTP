@@ -1,19 +1,18 @@
 package actors;
 
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 import java.util.concurrent.ConcurrentHashMap;
+import java.util.concurrent.ConcurrentLinkedQueue;
 import java.util.concurrent.ConcurrentMap;
+import java.util.concurrent.CopyOnWriteArrayList;
 
 public class ActorSystem {
-    private ConcurrentMap<String,Handler> registryHandlers = new ConcurrentHashMap<>();
-    private ConcurrentMap<String, ArrayList<Actor>> registryActors = new ConcurrentHashMap<>();
+    Map<String,ActorGroup> registry = new HashMap<>();
+    int maxLoad = 5;
 
     void recreate(Actor deadActor) throws InterruptedException {
-        List<Actor> actorGroup = registryActors.get(deadActor.getActorName());
+        CopyOnWriteArrayList<Actor> actorGroup = registry.get(deadActor.getActorName()).getActors();
         int indexOfDeadActor = actorGroup.indexOf(deadActor);
 
         deadActor.stopThread();
@@ -24,20 +23,54 @@ public class ActorSystem {
     }
 
     public void createActor(String name,Handler handler){
-        registry.put(name,new Actor(name,this, handler));
+        registry.put(name,new ActorGroup(name,this,handler));
     }
 
-//    public Actor getActor(String name){ return registry.get(name); }
-
     public void sendMessage(String toActor,Object msg){
-        getActor(toActor).getInbox().add(msg);
+        if(msg == null) return;
+
+        ActorGroup actorGroup = registry.get(toActor);
+        CopyOnWriteArrayList<Actor> actors = actorGroup.getActors();
+
+        if(actors.isEmpty()){
+            actorGroup.addActor();
+        }
+
+        boolean messageIsSend = false;
+
+        for(Actor actor : actors){
+            // creating new actor on high load
+            if(actor.getInbox().size() < maxLoad && !messageIsSend){
+                actor.getInbox().add(msg);
+                messageIsSend = true;
+                continue;
+            }
+            // removing actors on low load
+            if(messageIsSend && actor.getInbox().isEmpty()){
+                    actorGroup.removeActor(actor);
+            }
+        }
+
+        if(!messageIsSend){
+            actorGroup.addActor();
+
+            // sending message to last created actor
+            actorGroup.getActors()
+                    .listIterator()
+                    .next()
+                    .getInbox()
+                    .add(msg);
+        }
+
     }
 
     public void getLoad(){
         System.out.println("==========================");
         System.out.println("Load for each actor : ");
-        registry.values().forEach( a ->
-            System.out.println(a.getActorName() + " - load is - " + a.getInbox().size())
+        registry.values().forEach( actorGroup ->
+                actorGroup.getActors().forEach(a ->
+                    System.out.println(a.getActorName() + " - load is - " + a.getInbox().size())
+                )
         );
         System.out.println("==========================");
 
@@ -45,13 +78,18 @@ public class ActorSystem {
 
     public void start(){
         registry.values()
-                .forEach(Actor::start);
+                .forEach( actorGroup ->
+                        actorGroup.getActors()
+                                .forEach(Actor::start)
+                );
     }
 
     public void shutDown() throws InterruptedException {
-        for(Actor actor : registry.values()){
-            actor.stopThread();
-            actor.join();
+        for (ActorGroup actorGroup : registry.values()) {
+            for(Actor actor : actorGroup.getActors()){
+                actor.stopThread();
+                actor.join();
+            }
         }
     }
 }
