@@ -1,4 +1,5 @@
 import actors.ActorSystem;
+import handlers.Forecaster;
 
 
 import javax.ws.rs.client.Client;
@@ -15,8 +16,8 @@ public class Application {
     public static void main(String[] args) throws InterruptedException {
         actorSystem.createActorGroup("dataReceiver", dataReceiver);
         actorSystem.createActorGroup("processor", processor);
-        actorSystem.createActorGroup("forecaster_1",forecaster);
-        actorSystem.createActorGroup("forecaster_2",forecaster);
+        actorSystem.createActorGroup("forecaster_1",new Forecaster());
+        actorSystem.createActorGroup("forecaster_2",new Forecaster());
         actorSystem.createActorGroup("printer",printer);
         actorSystem.start();
 

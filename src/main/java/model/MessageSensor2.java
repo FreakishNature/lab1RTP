@@ -36,4 +36,15 @@ public class MessageSensor2 implements Sensor{
     public double getLightSensor() {
         return lightSensor;
     }
+
+    public MessageSensor2(double temperatureSensor, double humiditySensor, double windSpeedSensor, double atmoPressureSensor, double lightSensor) {
+        this.temperatureSensor = temperatureSensor;
+        this.humiditySensor = humiditySensor;
+        this.windSpeedSensor = windSpeedSensor;
+        this.atmoPressureSensor = atmoPressureSensor;
+        this.lightSensor = lightSensor;
+    }
+
+    public MessageSensor2() {
+    }
 }

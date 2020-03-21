@@ -9,7 +9,7 @@ import java.util.concurrent.CopyOnWriteArrayList;
 
 public class ActorSystem {
     Map<String,ActorGroup> registry = new HashMap<>();
-    int maxLoad = 5;
+    int maxLoad = 20;
 
     void recreate(Actor deadActor) throws InterruptedException {
         CopyOnWriteArrayList<Actor> actorGroup = registry.get(deadActor.getActorName()).getActors();
@@ -89,7 +89,7 @@ public class ActorSystem {
         for (ActorGroup actorGroup : registry.values()) {
             for(Actor actor : actorGroup.getActors()){
                 actor.stopThread();
-//                actor.join();
+                actor.join();
             }
         }
     }

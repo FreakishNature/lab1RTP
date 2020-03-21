@@ -28,10 +28,6 @@ public class ActorGroup {
         removingActor.stopThread();
     }
 
-    public Handler getHandler() {
-        return handler;
-    }
-
     public CopyOnWriteArrayList<Actor> getActors() {
         return actors;
     }
