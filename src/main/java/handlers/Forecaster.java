@@ -4,28 +4,31 @@ import actors.Handler;
 import model.MessageSensor1;
 import model.Sensor;
 
+import java.io.IOException;
 import java.util.ArrayList;
+import java.util.concurrent.CopyOnWriteArrayList;
 
 public class Forecaster extends Handler {
     public Forecaster(int interval){
         FORECAST_INTERVAL = interval;
     }
-    ArrayList<Sensor> sensorDatas = new ArrayList<>();
+    CopyOnWriteArrayList<Sensor> sensorDatas = new CopyOnWriteArrayList<>();
     int AMOUNT_OF_FORECASTING_DATA = 5;
     int FORECAST_INTERVAL = 5;
     long lastTime = 0;
     @Override
-    public void receive(Object msg) throws Exception {
+    public void receive(Object msg) throws IOException {
         if(msg == null) { return; }
 
-        if(sensorDatas.isEmpty()){
-            lastTime = System.currentTimeMillis();
-        }
+//        try{
+            if(sensorDatas.isEmpty()){
+                lastTime = System.currentTimeMillis();
+            }
 
-        sensorDatas.add((Sensor)msg);
-        if(System.currentTimeMillis() - lastTime < FORECAST_INTERVAL * 1000){
-            return;
-        }
+            sensorDatas.add((Sensor)msg);
+            if(System.currentTimeMillis() - lastTime < FORECAST_INTERVAL * 1000){
+                return;
+            }
 
 //        if(sensorDatas.size() <= AMOUNT_OF_FORECASTING_DATA){
 //            sensorDatas.add((Sensor)msg);
@@ -36,47 +39,47 @@ public class Forecaster extends Handler {
 //        }
 
 
-        String forecastSensors = msg instanceof MessageSensor1 ? "Forecast 1 : " : "Forecast 2 : ";
+            String forecastSensors = msg instanceof MessageSensor1 ? "Forecast 1 : " : "Forecast 2 : ";
 
 
-        double temperatureSensor = 0;
-        double atmoPressureSensor = 0;
-        double humiditySensor = 0;
-        double lightSensor = 0;
-        double windSpeedSensor = 0;
+            double temperatureSensor = 0;
+            double atmoPressureSensor = 0;
+            double humiditySensor = 0;
+            double lightSensor = 0;
+            double windSpeedSensor = 0;
 
-        for (Sensor sensor : sensorDatas) {
-            temperatureSensor += sensor.getTemperatureSensor();
-            atmoPressureSensor += sensor.getAtmoPressureSensor();
-            humiditySensor += sensor.getHumiditySensor();
-            lightSensor += sensor.getLightSensor();
-            windSpeedSensor += sensor.getWindSpeedSensor();
-        }
+            for (Sensor sensor : sensorDatas) {
+                temperatureSensor += sensor.getTemperatureSensor();
+                atmoPressureSensor += sensor.getAtmoPressureSensor();
+                humiditySensor += sensor.getHumiditySensor();
+                lightSensor += sensor.getLightSensor();
+                windSpeedSensor += sensor.getWindSpeedSensor();
+            }
 
-        temperatureSensor /= AMOUNT_OF_FORECASTING_DATA;
-        atmoPressureSensor /= AMOUNT_OF_FORECASTING_DATA;
-        humiditySensor /= AMOUNT_OF_FORECASTING_DATA;
-        lightSensor /= AMOUNT_OF_FORECASTING_DATA;
-        windSpeedSensor /= AMOUNT_OF_FORECASTING_DATA;
+            temperatureSensor /= sensorDatas.size();
+            atmoPressureSensor /= sensorDatas.size();
+            humiditySensor /= sensorDatas.size();
+            lightSensor /= sensorDatas.size();
+            windSpeedSensor /= sensorDatas.size();
 
-        Sensor message = new MessageSensor1(
-                temperatureSensor,
-                humiditySensor,
-                windSpeedSensor,
-                atmoPressureSensor,
-                lightSensor
-        );
+            Sensor message = new MessageSensor1(
+                    temperatureSensor,
+                    humiditySensor,
+                    windSpeedSensor,
+                    atmoPressureSensor,
+                    lightSensor
+            );
 
-        String forecast = doForecast(message);
-        sensorDatas.clear();
-        system.sendMessage("printer",
-                forecastSensors + forecast +
-                        "\n Temperature - " + message.getTemperatureSensor() +
-                        "\n Humidity - " + message.getHumiditySensor() +
-                        "\n Atmosphere pressure - " + message.getAtmoPressureSensor() +
-                        "\n Light - " + message.getLightSensor() +
-                        "\n Wind speed - " + message.getWindSpeedSensor()
-        );
+            String forecast = doForecast(message);
+            sensorDatas.clear();
+            system.sendMessage("printer",
+                    forecastSensors + forecast +
+                            "\n Temperature - " + message.getTemperatureSensor() +
+                            "\n Humidity - " + message.getHumiditySensor() +
+                            "\n Atmosphere pressure - " + message.getAtmoPressureSensor() +
+                            "\n Light - " + message.getLightSensor() +
+                            "\n Wind speed - " + message.getWindSpeedSensor()
+            );
     }
 
     private static String doForecast(Sensor message) {

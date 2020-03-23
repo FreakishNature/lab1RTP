@@ -1,5 +1,6 @@
 package actors;
 
+import java.io.IOException;
 import java.util.LinkedList;
 import java.util.Objects;
 import java.util.PriorityQueue;
@@ -44,7 +45,7 @@ public class Actor extends Thread{
         while (isRunning){
             try{
                 handler.receive(!inbox.isEmpty() ? inbox.remove() : null);
-            } catch (Exception ex){
+            } catch (IOException ex){
                 ex.printStackTrace();
                 try {
                     handler.system.recreate(this);

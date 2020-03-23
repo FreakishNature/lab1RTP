@@ -45,7 +45,7 @@ public class Application {
                     }
             );
             source.open();
-            Thread.sleep(11000);
+            Thread.sleep(60_000);
         }
 
         actorSystem.shutDown();

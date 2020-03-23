@@ -8,13 +8,15 @@ import model.ResponseSensor1;
 import model.ResponseSensor2;
 import model.Sensor;
 
+import java.io.IOException;
+
 public class Handlers {
     static ObjectMapper mapper = new ObjectMapper();
 
 
     public static Handler dataReceiver = new Handler() {
         @Override
-        public void receive(Object msg) throws Exception {
+        public void receive(Object msg) throws IOException {
             if(msg == null) { return; }
             String data = msg.toString();
             system.sendMessage("processor",data);
@@ -23,10 +25,10 @@ public class Handlers {
 
     public static Handler processor = new Handler() {
         @Override
-        public void receive(Object msg) throws Exception {
+        public void receive(Object msg) throws IOException {
             if(msg == null) { return; }
             if(msg.toString().contains("panic")){
-                throw new Exception("Panic exception");
+                throw new IOException("Panic exception");
             }
             try {
                 system.sendMessage("forecaster_1",
@@ -46,7 +48,7 @@ public class Handlers {
 
     public static Handler printer = new Handler() {
         @Override
-        public void receive(Object msg) throws Exception {
+        public void receive(Object msg) throws IOException {
             if ( msg == null) return;
 //            system.getLoad();
             System.out.println("--------------------------");
