@@ -7,20 +7,33 @@ import model.Sensor;
 import java.util.ArrayList;
 
 public class Forecaster extends Handler {
-    ArrayList<Sensor> sensors = new ArrayList<>();
+    public Forecaster(int interval){
+        FORECAST_INTERVAL = interval;
+    }
+    ArrayList<Sensor> sensorDatas = new ArrayList<>();
     int AMOUNT_OF_FORECASTING_DATA = 5;
-
+    int FORECAST_INTERVAL = 5;
+    long lastTime = 0;
     @Override
     public void receive(Object msg) throws Exception {
         if(msg == null) { return; }
 
-        if(sensors.size() <= AMOUNT_OF_FORECASTING_DATA){
-            sensors.add((Sensor)msg);
+        if(sensorDatas.isEmpty()){
+            lastTime = System.currentTimeMillis();
         }
 
-        if(sensors.size() != AMOUNT_OF_FORECASTING_DATA){
+        sensorDatas.add((Sensor)msg);
+        if(System.currentTimeMillis() - lastTime < FORECAST_INTERVAL * 1000){
             return;
         }
+
+//        if(sensorDatas.size() <= AMOUNT_OF_FORECASTING_DATA){
+//            sensorDatas.add((Sensor)msg);
+//        }
+//
+//        if(sensorDatas.size() != AMOUNT_OF_FORECASTING_DATA){
+//            return;
+//        }
 
 
         String forecastSensors = msg instanceof MessageSensor1 ? "Forecast 1 : " : "Forecast 2 : ";
@@ -32,7 +45,7 @@ public class Forecaster extends Handler {
         double lightSensor = 0;
         double windSpeedSensor = 0;
 
-        for (Sensor sensor : sensors) {
+        for (Sensor sensor : sensorDatas) {
             temperatureSensor += sensor.getTemperatureSensor();
             atmoPressureSensor += sensor.getAtmoPressureSensor();
             humiditySensor += sensor.getHumiditySensor();
@@ -55,7 +68,7 @@ public class Forecaster extends Handler {
         );
 
         String forecast = doForecast(message);
-        sensors.clear();
+        sensorDatas.clear();
         system.sendMessage("printer",
                 forecastSensors + forecast +
                         "\n Temperature - " + message.getTemperatureSensor() +

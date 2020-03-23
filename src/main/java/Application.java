@@ -6,6 +6,7 @@ import javax.ws.rs.client.Client;
 import javax.ws.rs.client.ClientBuilder;
 import javax.ws.rs.client.WebTarget;
 import javax.ws.rs.sse.SseEventSource;
+import java.util.Scanner;
 import java.util.concurrent.TimeUnit;
 import static handlers.Handlers.*;
 
@@ -14,10 +15,21 @@ public class Application {
     private static String url = "http://localhost:4000/iot";
 
     public static void main(String[] args) throws InterruptedException {
+        System.out.println("Enter interval for forecast sensor 1 and 2 : \n");
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Forecast 1 interval in seconds - ");
+        actorSystem.createActorGroup("forecaster_1",
+                new Forecaster(scanner.nextInt())
+        );
+
+        System.out.print("Forecast 2 interval in seconds - ");
+        actorSystem.createActorGroup("forecaster_2",
+                new Forecaster(scanner.nextInt())
+        );
+
         actorSystem.createActorGroup("dataReceiver", dataReceiver);
         actorSystem.createActorGroup("processor", processor);
-        actorSystem.createActorGroup("forecaster_1",new Forecaster());
-        actorSystem.createActorGroup("forecaster_2",new Forecaster());
         actorSystem.createActorGroup("printer",printer);
         actorSystem.start();
 
@@ -33,7 +45,7 @@ public class Application {
                     }
             );
             source.open();
-            Thread.sleep(3000);
+            Thread.sleep(11000);
         }
 
         actorSystem.shutDown();
