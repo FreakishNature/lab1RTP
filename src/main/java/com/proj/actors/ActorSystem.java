@@ -1,22 +1,31 @@
 package com.proj.actors;
 
 
+import org.apache.log4j.Logger;
+
 import java.util.*;
 import java.util.concurrent.CopyOnWriteArrayList;
 
 public class ActorSystem {
     Map<String,ActorGroup> registry = new HashMap<>();
     int maxLoad = 20;
+    Logger log = Logger.getLogger(ActorSystem.class);
 
-    void recreate(Actor deadActor) throws InterruptedException {
-        CopyOnWriteArrayList<Actor> actorGroup = registry.get(deadActor.getActorName()).getActors();
-        int indexOfDeadActor = actorGroup.indexOf(deadActor);
+    synchronized void recreate(Actor deadActor) throws InterruptedException {
+        ActorGroup actorGroup = registry.get(deadActor.getActorName());
+        CopyOnWriteArrayList<Actor> actors =  actorGroup.getActors();
+        int indexOfDeadActor = actors.indexOf(deadActor);
+        actorGroup.removeActor(deadActor);
 
-        deadActor.stopThread();
+        if(indexOfDeadActor >= actors.size() || indexOfDeadActor < 0){
+            actors.add(new Actor(deadActor));
+            actors.get(actors.size() - 1).start();
+        } else {
+            actors.add(indexOfDeadActor, new Actor(deadActor));
+            actors.get(indexOfDeadActor).start();
+        }
 
-        actorGroup.set(indexOfDeadActor, new Actor(deadActor));
-        actorGroup.get(indexOfDeadActor).start();
-        System.out.println("Actor " + deadActor.getActorName() + indexOfDeadActor + " was recreated");
+        log.info("Actor " + deadActor.getActorName() + indexOfDeadActor + " was recreated");
     }
 
     public void createActorGroup(String name, Handler handler){
@@ -42,7 +51,7 @@ public class ActorSystem {
                 messageIsSend = true;
                 continue;
             }
-            // removing com.proj.actors on low load
+            // removing actors on low load
             if(messageIsSend && actor.getInbox().isEmpty()){
                 actorGroup.removeActor(actor);
             }
@@ -86,7 +95,7 @@ public class ActorSystem {
         for (ActorGroup actorGroup : registry.values()) {
             for(Actor actor : actorGroup.getActors()){
                 actor.stopThread();
-                actor.join();
+//                actor.join();
             }
         }
     }

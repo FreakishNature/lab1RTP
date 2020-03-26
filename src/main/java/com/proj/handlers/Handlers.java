@@ -5,12 +5,13 @@ import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.proj.model.ResponseSensor1;
 import com.proj.model.ResponseSensor2;
+import org.apache.log4j.Logger;
 
 import java.io.IOException;
 
 public class Handlers {
     static ObjectMapper mapper = new ObjectMapper();
-
+    static Logger log = Logger.getLogger(Handler.class);
 
     public static Handler dataReceiver = new Handler() {
         @Override
@@ -49,9 +50,9 @@ public class Handlers {
         public void receive(Object msg) throws IOException {
             if ( msg == null) return;
 //            system.getLoad();
-            System.out.println("--------------------------");
-            System.out.println(msg);
-            System.out.println("--------------------------");
+            log.info("--------------------------");
+            log.info(msg);
+            log.info("--------------------------");
         }
     };
 

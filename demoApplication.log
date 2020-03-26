@@ -1,0 +1,661 @@
+[Thread-23] INFO  com.proj.actors.ActorSystem  - Actor processor18 was recreated
+[Thread-3] INFO  com.proj.actors.ActorSystem  - Actor processor1 was recreated
+[Thread-2] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-73] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-74] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-76] INFO  com.proj.actors.Handler  - --------------------------
+[Thread-76] INFO  com.proj.actors.Handler  - Forecast 1 : JUST_A_NORMAL_DAY
+ Temperature - 9.286325793349857
+ Humidity - 49.28868005381077
+ Atmosphere pressure - 700.4707138858228
+ Light - 129.86594911937377
+ Wind speed - 24.726325297323378
+[Thread-76] INFO  com.proj.actors.Handler  - --------------------------
+[Thread-76] INFO  com.proj.actors.Handler  - --------------------------
+[Thread-76] INFO  com.proj.actors.Handler  - Forecast 2 : CLOUDY
+ Temperature - 10.789233668376967
+ Humidity - 50.74211272011022
+ Atmosphere pressure - 698.5650191754046
+ Light - 127.97140221402213
+ Wind speed - 24.688022219468248
+[Thread-76] INFO  com.proj.actors.Handler  - --------------------------
+[Thread-75] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-77] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-78] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-79] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-76] INFO  com.proj.actors.Handler  - --------------------------
+[Thread-76] INFO  com.proj.actors.Handler  - Forecast 1 : CLOUDY
+ Temperature - 9.667584251902364
+ Humidity - 50.82762506610383
+ Atmosphere pressure - 697.6334495977186
+ Light - 125.83676975945018
+ Wind speed - 23.768199993763027
+[Thread-76] INFO  com.proj.actors.Handler  - --------------------------
+[Thread-76] INFO  com.proj.actors.Handler  - --------------------------
+[Thread-76] INFO  com.proj.actors.Handler  - Forecast 2 : CLOUDY
+ Temperature - 9.979186522900509
+ Humidity - 49.074006112096754
+ Atmosphere pressure - 697.7825494304872
+ Light - 127.55576559546314
+ Wind speed - 24.515726884657703
+[Thread-76] INFO  com.proj.actors.Handler  - --------------------------
+[Thread-80] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-82] INFO  com.proj.actors.ActorSystem  - Actor processor1 was recreated
+[Thread-81] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-91] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-93] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-99] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-101] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-102] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-103] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-104] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-105] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-76] INFO  com.proj.actors.Handler  - --------------------------
+[Thread-76] INFO  com.proj.actors.Handler  - Forecast 1 : CLOUDY
+ Temperature - 9.173776961389226
+ Humidity - 48.85005818935089
+ Atmosphere pressure - 700.0246983460324
+ Light - 127.88436632747457
+ Wind speed - 25.253028204067835
+[Thread-76] INFO  com.proj.actors.Handler  - --------------------------
+[Thread-76] INFO  com.proj.actors.Handler  - --------------------------
+[Thread-76] INFO  com.proj.actors.Handler  - Forecast 2 : CLOUDY
+ Temperature - 9.30916086164202
+ Humidity - 50.50470633438843
+ Atmosphere pressure - 700.0393472271173
+ Light - 125.66790352504638
+ Wind speed - 25.620485867424637
+[Thread-76] INFO  com.proj.actors.Handler  - --------------------------
+[Thread-106] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-107] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-108] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-109] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-111] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-115] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-116] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-76] INFO  com.proj.actors.Handler  - --------------------------
+[Thread-76] INFO  com.proj.actors.Handler  - Forecast 1 : JUST_A_NORMAL_DAY
+ Temperature - 10.13706229305264
+ Humidity - 50.46678322664224
+ Atmosphere pressure - 702.738442370426
+ Light - 131.06366630076838
+ Wind speed - 25.339367618367998
+[Thread-76] INFO  com.proj.actors.Handler  - --------------------------
+[Thread-76] INFO  com.proj.actors.Handler  - --------------------------
+[Thread-76] INFO  com.proj.actors.Handler  - Forecast 2 : JUST_A_NORMAL_DAY
+ Temperature - 9.924171649108136
+ Humidity - 50.07271351697707
+ Atmosphere pressure - 698.1909677863736
+ Light - 128.02197802197801
+ Wind speed - 24.78827932598376
+[Thread-76] INFO  com.proj.actors.Handler  - --------------------------
+[Thread-126] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-132] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-133] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-134] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-136] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-148] INFO  com.proj.actors.ActorSystem  - Actor processor1 was recreated
+[Thread-137] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-150] INFO  com.proj.actors.ActorSystem  - Actor processor2 was recreated
+[Thread-76] INFO  com.proj.actors.Handler  - --------------------------
+[Thread-76] INFO  com.proj.actors.Handler  - Forecast 1 : JUST_A_NORMAL_DAY
+ Temperature - 9.644351023058501
+ Humidity - 50.58125657955635
+ Atmosphere pressure - 696.2475234831552
+ Light - 130.2675521821632
+ Wind speed - 25.865858645978044
+[Thread-76] INFO  com.proj.actors.Handler  - --------------------------
+[Thread-76] INFO  com.proj.actors.Handler  - --------------------------
+[Thread-76] INFO  com.proj.actors.Handler  - Forecast 2 : CLOUDY
+ Temperature - 10.10487218441193
+ Humidity - 49.19133168230919
+ Atmosphere pressure - 699.190106815299
+ Light - 125.60943396226415
+ Wind speed - 25.360195890380705
+[Thread-76] INFO  com.proj.actors.Handler  - --------------------------
+[Thread-152] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-155] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-156] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-76] INFO  com.proj.actors.Handler  - --------------------------
+[Thread-76] INFO  com.proj.actors.Handler  - Forecast 1 : CLOUDY
+ Temperature - 10.017250994916282
+ Humidity - 50.785485688099484
+ Atmosphere pressure - 700.2815469336809
+ Light - 126.2788144895719
+ Wind speed - 25.636838929740318
+[Thread-76] INFO  com.proj.actors.Handler  - --------------------------
+[Thread-157] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-158] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-76] INFO  com.proj.actors.Handler  - --------------------------
+[Thread-76] INFO  com.proj.actors.Handler  - Forecast 2 : JUST_A_NORMAL_DAY
+ Temperature - 10.813835923295793
+ Humidity - 50.29788993619351
+ Atmosphere pressure - 702.0225025086884
+ Light - 133.67588179218302
+ Wind speed - 24.94499944720562
+[Thread-76] INFO  com.proj.actors.Handler  - --------------------------
+[Thread-159] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-160] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-161] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-162] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-163] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-164] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-165] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-167] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-168] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-169] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-171] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-172] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-173] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-174] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-176] INFO  com.proj.actors.ActorSystem  - Actor processor1 was recreated
+[Thread-175] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-178] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-76] INFO  com.proj.actors.Handler  - --------------------------
+[Thread-76] INFO  com.proj.actors.Handler  - Forecast 1 : CLOUDY
+ Temperature - 10.141425690745379
+ Humidity - 49.40603136466514
+ Atmosphere pressure - 698.1022529179514
+ Light - 126.74983187626093
+ Wind speed - 25.45701471122226
+[Thread-76] INFO  com.proj.actors.Handler  - --------------------------
+[Thread-76] INFO  com.proj.actors.Handler  - --------------------------
+[Thread-76] INFO  com.proj.actors.Handler  - Forecast 2 : JUST_A_NORMAL_DAY
+ Temperature - 9.96868768562154
+ Humidity - 49.74470404084392
+ Atmosphere pressure - 700.3750514073433
+ Light - 129.39402767662054
+ Wind speed - 25.469651598892554
+[Thread-76] INFO  com.proj.actors.Handler  - --------------------------
+[Thread-179] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-180] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-181] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-76] INFO  com.proj.actors.Handler  - --------------------------
+[Thread-76] INFO  com.proj.actors.Handler  - Forecast 1 : JUST_A_NORMAL_DAY
+ Temperature - 10.942523324045474
+ Humidity - 50.80742657912737
+ Atmosphere pressure - 707.8922296387137
+ Light - 132.62539682539682
+ Wind speed - 25.271031830389653
+[Thread-76] INFO  com.proj.actors.Handler  - --------------------------
+[Thread-76] INFO  com.proj.actors.Handler  - --------------------------
+[Thread-76] INFO  com.proj.actors.Handler  - Forecast 2 : JUST_A_NORMAL_DAY
+ Temperature - 11.949256979981042
+ Humidity - 48.50388502323257
+ Atmosphere pressure - 699.3954069000782
+ Light - 128.80872483221478
+ Wind speed - 24.62374686948357
+[Thread-76] INFO  com.proj.actors.Handler  - --------------------------
+[Thread-182] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-183] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-184] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-187] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-188] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-189] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-190] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-191] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-76] INFO  com.proj.actors.Handler  - --------------------------
+[Thread-76] INFO  com.proj.actors.Handler  - Forecast 1 : CLOUDY
+ Temperature - 10.522412036760764
+ Humidity - 51.46996621094408
+ Atmosphere pressure - 699.8301662736775
+ Light - 124.77904929577464
+ Wind speed - 25.394665410805015
+[Thread-76] INFO  com.proj.actors.Handler  - --------------------------
+[Thread-76] INFO  com.proj.actors.Handler  - --------------------------
+[Thread-76] INFO  com.proj.actors.Handler  - Forecast 2 : JUST_A_NORMAL_DAY
+ Temperature - 9.715435668650947
+ Humidity - 49.80746671572789
+ Atmosphere pressure - 701.1271193696317
+ Light - 129.00976909413853
+ Wind speed - 25.583314860158563
+[Thread-76] INFO  com.proj.actors.Handler  - --------------------------
+[Thread-192] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-193] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-194] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-195] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-196] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-197] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-198] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-199] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-200] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-201] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-202] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-203] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-204] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-205] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-206] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-207] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-76] INFO  com.proj.actors.Handler  - --------------------------
+[Thread-76] INFO  com.proj.actors.Handler  - Forecast 1 : CLOUDY
+ Temperature - 8.971930085740029
+ Humidity - 50.03463009480403
+ Atmosphere pressure - 700.1259170069183
+ Light - 127.29691211401425
+ Wind speed - 24.905599565452103
+[Thread-76] INFO  com.proj.actors.Handler  - --------------------------
+[Thread-208] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-76] INFO  com.proj.actors.Handler  - --------------------------
+[Thread-76] INFO  com.proj.actors.Handler  - Forecast 2 : CLOUDY
+ Temperature - 8.949253803205668
+ Humidity - 51.111210184053476
+ Atmosphere pressure - 700.0125486618978
+ Light - 126.54150799695354
+ Wind speed - 24.78005839108947
+[Thread-76] INFO  com.proj.actors.Handler  - --------------------------
+[Thread-209] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-210] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-211] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-212] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-215] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-221] INFO  com.proj.actors.ActorSystem  - Actor processor2 was recreated
+[Thread-220] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-234] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-235] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-237] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-238] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-240] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-76] INFO  com.proj.actors.Handler  - --------------------------
+[Thread-76] INFO  com.proj.actors.Handler  - Forecast 1 : JUST_A_NORMAL_DAY
+ Temperature - 10.092692654280736
+ Humidity - 49.725146636381965
+ Atmosphere pressure - 700.5456998116515
+ Light - 129.53877887788778
+ Wind speed - 24.159167463536228
+[Thread-76] INFO  com.proj.actors.Handler  - --------------------------
+[Thread-76] INFO  com.proj.actors.Handler  - --------------------------
+[Thread-76] INFO  com.proj.actors.Handler  - Forecast 2 : CLOUDY
+ Temperature - 10.440793234199392
+ Humidity - 48.8810388133317
+ Atmosphere pressure - 701.7563613583939
+ Light - 126.29432013769363
+ Wind speed - 25.34085550985625
+[Thread-76] INFO  com.proj.actors.Handler  - --------------------------
+[Thread-243] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-248] INFO  com.proj.actors.ActorSystem  - Actor processor2 was recreated
+[Thread-246] INFO  com.proj.actors.ActorSystem  - Actor processor1 was recreated
+[Thread-247] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-258] INFO  com.proj.actors.ActorSystem  - Actor processor2 was recreated
+[Thread-256] INFO  com.proj.actors.ActorSystem  - Actor processor1 was recreated
+[Thread-3] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-3] INFO  com.proj.actors.ActorSystem  - Actor processor1 was recreated
+[Thread-28] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-28] INFO  com.proj.actors.ActorSystem  - Actor processor5 was recreated
+[Thread-2] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-2] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-84] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-84] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-85] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-85] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-87] INFO  com.proj.actors.Handler  - --------------------------
+[Thread-87] INFO  com.proj.actors.Handler  - Forecast 2 : CLOUDY
+ Temperature - 10.56578609648674
+ Humidity - 50.578209115438675
+ Atmosphere pressure - 698.2910921150258
+ Light - 127.61063464837049
+ Wind speed - 24.920892076658404
+[Thread-87] INFO  com.proj.actors.Handler  - --------------------------
+[Thread-87] INFO  com.proj.actors.Handler  - --------------------------
+[Thread-87] INFO  com.proj.actors.Handler  - Forecast 1 : JUST_A_NORMAL_DAY
+ Temperature - 9.406313564295505
+ Humidity - 49.6882159472516
+ Atmosphere pressure - 699.3749037512016
+ Light - 129.62361937128293
+ Wind speed - 24.50107860788985
+[Thread-87] INFO  com.proj.actors.Handler  - --------------------------
+[Thread-86] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-86] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-91] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-91] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-92] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-92] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-93] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-93] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-87] INFO  com.proj.actors.Handler  - --------------------------
+[Thread-87] INFO  com.proj.actors.Handler  - Forecast 1 : CLOUDY
+ Temperature - 9.377772365765727
+ Humidity - 49.9971524977507
+ Atmosphere pressure - 699.6757935096815
+ Light - 125.28929384965832
+ Wind speed - 24.112502700446445
+[Thread-87] INFO  com.proj.actors.Handler  - --------------------------
+[Thread-87] INFO  com.proj.actors.Handler  - --------------------------
+[Thread-87] INFO  com.proj.actors.Handler  - Forecast 2 : JUST_A_NORMAL_DAY
+ Temperature - 10.455943009979405
+ Humidity - 49.12216128781859
+ Atmosphere pressure - 698.4107512785894
+ Light - 128.30666666666667
+ Wind speed - 23.93103819065954
+[Thread-87] INFO  com.proj.actors.Handler  - --------------------------
+[Thread-95] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-95] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-96] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-96] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-98] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-98] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-101] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-101] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-102] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-102] INFO  com.proj.actors.ActorSystem  - Actor processor1 was recreated
+[Thread-106] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-106] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-108] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-108] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-109] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-109] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-110] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-110] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-112] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-112] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-114] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-114] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-87] INFO  com.proj.actors.Handler  - --------------------------
+[Thread-87] INFO  com.proj.actors.Handler  - Forecast 2 : CLOUDY
+ Temperature - 9.270170891357104
+ Humidity - 50.563607549942816
+ Atmosphere pressure - 700.1079790313584
+ Light - 125.50278293135436
+ Wind speed - 25.583130154933436
+[Thread-87] INFO  com.proj.actors.Handler  - --------------------------
+[Thread-87] INFO  com.proj.actors.Handler  - --------------------------
+[Thread-87] INFO  com.proj.actors.Handler  - Forecast 1 : CLOUDY
+ Temperature - 9.156752373437177
+ Humidity - 48.79949421699716
+ Atmosphere pressure - 699.7806925661434
+ Light - 127.87384044526901
+ Wind speed - 25.176899568729397
+[Thread-87] INFO  com.proj.actors.Handler  - --------------------------
+[Thread-115] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-115] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-116] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-116] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-117] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-117] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-118] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-118] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-122] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-122] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-124] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-124] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-126] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-126] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-87] INFO  com.proj.actors.Handler  - --------------------------
+[Thread-87] INFO  com.proj.actors.Handler  - Forecast 2 : JUST_A_NORMAL_DAY
+ Temperature - 9.906290922323306
+ Humidity - 50.04885589076222
+ Atmosphere pressure - 698.1292201314347
+ Light - 128.23542354235423
+ Wind speed - 24.81758349918393
+[Thread-87] INFO  com.proj.actors.Handler  - --------------------------
+[Thread-87] INFO  com.proj.actors.Handler  - --------------------------
+[Thread-87] INFO  com.proj.actors.Handler  - Forecast 1 : JUST_A_NORMAL_DAY
+ Temperature - 10.181664259985732
+ Humidity - 50.721911018474955
+ Atmosphere pressure - 702.8261205101811
+ Light - 131.13861386138615
+ Wind speed - 25.474328778337195
+[Thread-87] INFO  com.proj.actors.Handler  - --------------------------
+[Thread-127] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-127] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-128] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-128] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-129] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-129] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-130] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-130] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-131] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-131] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-133] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-133] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-143] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-143] INFO  com.proj.actors.ActorSystem  - Actor processor1 was recreated
+[Thread-148] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-148] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-87] INFO  com.proj.actors.Handler  - --------------------------
+[Thread-87] INFO  com.proj.actors.Handler  - Forecast 2 : CLOUDY
+ Temperature - 10.147208682772085
+ Humidity - 49.310464061287334
+ Atmosphere pressure - 699.24705295138
+ Light - 125.30377358490566
+ Wind speed - 25.307087972082734
+[Thread-87] INFO  com.proj.actors.Handler  - --------------------------
+[Thread-87] INFO  com.proj.actors.Handler  - --------------------------
+[Thread-87] INFO  com.proj.actors.Handler  - Forecast 1 : JUST_A_NORMAL_DAY
+ Temperature - 9.695784356490856
+ Humidity - 50.492286314454326
+ Atmosphere pressure - 696.0719954488023
+ Light - 129.93018867924528
+ Wind speed - 25.75985836762363
+[Thread-87] INFO  com.proj.actors.Handler  - --------------------------
+[Thread-150] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-150] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-152] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-152] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-154] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-154] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-155] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-155] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-156] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-156] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-87] INFO  com.proj.actors.Handler  - --------------------------
+[Thread-87] INFO  com.proj.actors.Handler  - Forecast 1 : CLOUDY
+ Temperature - 10.013214388372587
+ Humidity - 50.333938576369206
+ Atmosphere pressure - 699.6191131212884
+ Light - 126.18250950570342
+ Wind speed - 25.308514400535795
+[Thread-87] INFO  com.proj.actors.Handler  - --------------------------
+[Thread-87] INFO  com.proj.actors.Handler  - --------------------------
+[Thread-87] INFO  com.proj.actors.Handler  - Forecast 2 : JUST_A_NORMAL_DAY
+ Temperature - 10.795484917807228
+ Humidity - 50.28939888827948
+ Atmosphere pressure - 702.1787340908506
+ Light - 133.57794676806083
+ Wind speed - 25.002106737690852
+[Thread-87] INFO  com.proj.actors.Handler  - --------------------------
+[Thread-157] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-157] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-158] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-158] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-159] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-159] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-160] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-160] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-161] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-161] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-162] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-162] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-163] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-163] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-164] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-164] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-165] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-165] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-166] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-166] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-167] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-167] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-168] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-168] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-169] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-169] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-170] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-170] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-171] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-171] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-174] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-174] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-177] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-177] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-87] INFO  com.proj.actors.Handler  - --------------------------
+[Thread-87] INFO  com.proj.actors.Handler  - Forecast 1 : CLOUDY
+ Temperature - 10.287718861688717
+ Humidity - 49.53621308001496
+ Atmosphere pressure - 699.0738727257058
+ Light - 127.433236574746
+ Wind speed - 25.67582029190192
+[Thread-87] INFO  com.proj.actors.Handler  - --------------------------
+[Thread-87] INFO  com.proj.actors.Handler  - --------------------------
+[Thread-87] INFO  com.proj.actors.Handler  - Forecast 2 : JUST_A_NORMAL_DAY
+ Temperature - 9.980861128521862
+ Humidity - 49.66852244521281
+ Atmosphere pressure - 700.2354142900423
+ Light - 129.21770682148042
+ Wind speed - 25.457719961638865
+[Thread-87] INFO  com.proj.actors.Handler  - --------------------------
+[Thread-178] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-178] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-179] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-179] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-180] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-180] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-87] INFO  com.proj.actors.Handler  - --------------------------
+[Thread-87] INFO  com.proj.actors.Handler  - Forecast 2 : JUST_A_NORMAL_DAY
+ Temperature - 11.998005603180628
+ Humidity - 48.62756166356555
+ Atmosphere pressure - 699.2930241250043
+ Light - 130.43243243243242
+ Wind speed - 24.48230129381345
+[Thread-87] INFO  com.proj.actors.Handler  - --------------------------
+[Thread-87] INFO  com.proj.actors.Handler  - --------------------------
+[Thread-87] INFO  com.proj.actors.Handler  - Forecast 1 : JUST_A_NORMAL_DAY
+ Temperature - 10.34537022685398
+ Humidity - 51.435090728257265
+ Atmosphere pressure - 707.0127661959923
+ Light - 132.83783783783784
+ Wind speed - 25.327582996596753
+[Thread-87] INFO  com.proj.actors.Handler  - --------------------------
+[Thread-181] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-181] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-182] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-182] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-183] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-183] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-185] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-185] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-186] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-186] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-189] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-189] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-190] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-190] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-195] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-195] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-87] INFO  com.proj.actors.Handler  - --------------------------
+[Thread-87] INFO  com.proj.actors.Handler  - Forecast 1 : CLOUDY
+ Temperature - 10.573694030170493
+ Humidity - 51.35755994408489
+ Atmosphere pressure - 699.5598729377712
+ Light - 124.24039320822163
+ Wind speed - 25.36666041967408
+[Thread-87] INFO  com.proj.actors.Handler  - --------------------------
+[Thread-87] INFO  com.proj.actors.Handler  - --------------------------
+[Thread-87] INFO  com.proj.actors.Handler  - Forecast 2 : JUST_A_NORMAL_DAY
+ Temperature - 9.698092092586796
+ Humidity - 49.84602287883934
+ Atmosphere pressure - 701.1271212125185
+ Light - 128.9562109025916
+ Wind speed - 25.602202814359845
+[Thread-87] INFO  com.proj.actors.Handler  - --------------------------
+[Thread-202] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-202] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-203] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-203] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-204] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-204] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-205] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-205] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-208] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-208] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-209] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-209] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-210] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-210] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-211] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-211] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-212] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-212] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-213] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-213] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-214] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-214] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-215] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-215] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-216] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-216] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-217] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-217] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-218] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-218] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-219] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-219] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-220] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-220] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-87] INFO  com.proj.actors.Handler  - --------------------------
+[Thread-87] INFO  com.proj.actors.Handler  - Forecast 1 : CLOUDY
+ Temperature - 9.098793877533726
+ Humidity - 50.45266767200947
+ Atmosphere pressure - 700.4317827467153
+ Light - 127.20380228136882
+ Wind speed - 24.78966794866921
+[Thread-87] INFO  com.proj.actors.Handler  - --------------------------
+[Thread-87] INFO  com.proj.actors.Handler  - --------------------------
+[Thread-87] INFO  com.proj.actors.Handler  - Forecast 2 : CLOUDY
+ Temperature - 8.953462185911018
+ Humidity - 51.13405423662393
+ Atmosphere pressure - 700.052054032854
+ Light - 126.35969581749049
+ Wind speed - 24.77027628277581
+[Thread-87] INFO  com.proj.actors.Handler  - --------------------------
+[Thread-221] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-221] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-222] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-222] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-223] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-223] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-224] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-224] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-225] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-225] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-226] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-226] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-227] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-227] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-228] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-228] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-229] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-229] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-230] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-230] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-231] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-231] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-233] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-233] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-87] INFO  com.proj.actors.Handler  - --------------------------
+[Thread-87] INFO  com.proj.actors.Handler  - Forecast 1 : JUST_A_NORMAL_DAY
+ Temperature - 9.953068677558528
+ Humidity - 49.21187257001558
+ Atmosphere pressure - 700.29123796182
+ Light - 129.90603448275863
+ Wind speed - 24.282141558236066
+[Thread-87] INFO  com.proj.actors.Handler  - --------------------------
+[Thread-87] INFO  com.proj.actors.Handler  - --------------------------
+[Thread-87] INFO  com.proj.actors.Handler  - Forecast 2 : CLOUDY
+ Temperature - 10.43859414420323
+ Humidity - 48.85129719964933
+ Atmosphere pressure - 701.7145838261401
+ Light - 126.5
+ Wind speed - 25.352911601813148
+[Thread-87] INFO  com.proj.actors.Handler  - --------------------------
+[Thread-234] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-234] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-235] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-235] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-237] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-237] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-238] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-238] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-239] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-239] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated
+[Thread-240] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-240] INFO  com.proj.actors.ActorSystem  - Actor processor0 was recreated

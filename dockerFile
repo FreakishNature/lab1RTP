@@ -1,0 +1,17 @@
+FROM openjdk:8-jdk
+
+ENV forecast1 5
+ENV forecast2 5
+ENV ip 192.168.0.24
+
+COPY pom.xml /usr/local/lab1rtp/pom.xml
+COPY src /usr/local/lab1rtp/src
+COPY target /usr/local/lab1rtp/target
+
+RUN apt-get -o Acquire::Check-Valid-Until=false -o Acquire::Check-Date=false update -y
+RUN apt-get install maven -y
+
+
+# RUN  cd /usr/local/lab1rtp/ && mvn package -X
+WORKDIR /usr/local/lab1rtp/
+CMD mvn exec:java -Dexec.mainClass="com.proj.Application" -Dexec.args="${forecast1} ${forecast2} ${ip}"

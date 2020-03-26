@@ -72,7 +72,7 @@ public class Forecaster extends Handler {
             String forecast = doForecast(message);
             sensorDatas.clear();
             system.sendMessage("printer",
-                    forecastSensors + forecast +
+                    "\n" + forecastSensors + forecast +
                             "\n Temperature - " + message.getTemperatureSensor() +
                             "\n Humidity - " + message.getHumiditySensor() +
                             "\n Atmosphere pressure - " + message.getAtmoPressureSensor() +

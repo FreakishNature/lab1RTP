@@ -20,7 +20,7 @@ public class ActorGroup {
         actors.add(createdActor);
     }
 
-    public void removeActor(Actor removingActor){
+    public synchronized void removeActor(Actor removingActor){
         actors.remove(removingActor);
         removingActor.stopThread();
     }

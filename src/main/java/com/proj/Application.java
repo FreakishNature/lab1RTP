@@ -14,20 +14,27 @@ import static com.proj.handlers.Handlers.*;
 
 public class Application {
     private static ActorSystem actorSystem = new ActorSystem();
-    private static String url = "http://localhost:4000/iot";
+    private static String url;
 
     public static void main(String[] args) throws InterruptedException {
-        System.out.println("Enter interval for forecast sensor 1 and 2 : \n");
-        Scanner scanner = new Scanner(System.in);
+        int forecastInterval1 = 5;
+        int forecastInterval2 = 5;
 
-        System.out.print("Forecast 1 interval in seconds - ");
+        if(args.length < 3){
+            url = "http://localhost:4000/iot";
+        } else {
+            url = "http://" + args[2] + ":4000/iot";
+            forecastInterval1 = Integer.parseInt(args[0]);
+            forecastInterval2 = Integer.parseInt(args[1]);
+        }
+
+
         actorSystem.createActorGroup("forecaster_1",
-                new Forecaster(scanner.nextInt())
+                new Forecaster(forecastInterval1)
         );
 
-        System.out.print("Forecast 2 interval in seconds - ");
         actorSystem.createActorGroup("forecaster_2",
-                new Forecaster(scanner.nextInt())
+                new Forecaster(forecastInterval2)
         );
 
         actorSystem.createActorGroup("dataReceiver", dataReceiver);

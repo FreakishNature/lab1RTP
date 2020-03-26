@@ -1,10 +1,13 @@
 package com.proj.actors;
 
+import org.apache.log4j.Logger;
+
 import java.io.IOException;
 import java.util.Queue;
 import java.util.concurrent.ConcurrentLinkedQueue;
 
 public class Actor extends Thread{
+    static Logger log = Logger.getLogger(Actor.class);
     private volatile ConcurrentLinkedQueue<Object> inbox;
     private String actorName;
     private Handler handler;
@@ -43,7 +46,7 @@ public class Actor extends Thread{
             try{
                 handler.receive(!inbox.isEmpty() ? inbox.remove() : null);
             } catch (IOException ex){
-                ex.printStackTrace();
+                log.warn(ex.getMessage());
                 try {
                     handler.system.recreate(this);
                 } catch (InterruptedException e) {
