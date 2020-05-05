@@ -1,33 +1,44 @@
 package com.proj.UDP;
 
 import java.io.IOException;
-import java.net.*;
+import java.net.DatagramPacket;
+import java.net.InetAddress;
+import java.net.MulticastSocket;
 
-public class Client {
-    private DatagramSocket socket;
-    private InetAddress address;
+public class Client implements Runnable {
 
-    private byte[] buf;
-
-    public Client() throws SocketException, UnknownHostException {
-        socket = new DatagramSocket();
-        address = InetAddress.getByName("localhost");
+    public static void main(String[] args) {
+        Thread t = new Thread(new Client());
+        t.start();
     }
 
-    public String sendEcho(String msg) throws IOException {
-        buf = msg.getBytes();
-        DatagramPacket packet
-                = new DatagramPacket(buf, buf.length, address, 4445);
+    public void receiveUDPMessage(String ip, int port) throws IOException {
+        byte[] buffer = new byte[1024];
+        MulticastSocket socket = new MulticastSocket(port);
+        InetAddress group = InetAddress.getByName(ip);
+        socket.joinGroup(group);
+        while (true) {
+            System.out.println("Waiting for multicast message...");
+            DatagramPacket packet = new DatagramPacket(buffer, buffer.length);
+            socket.receive(packet);
+            String msg = new String(packet.getData(), packet.getOffset(), packet.getLength());
 
-        socket.send(packet);
-        packet = new DatagramPacket(buf, buf.length);
-        socket.receive(packet);
-        String received = new String(
-                packet.getData(), 0, packet.getLength());
-        return received;
-    }
-
-    public void close() {
+            System.out.println("Message received: " + msg);
+            if ("STOP".equals(msg)) {
+                System.out.println("No more messages. Stopping : " + msg);
+                break;
+            }
+        }
+        socket.leaveGroup(group);
         socket.close();
+    }
+
+    @Override
+    public void run() {
+        try {
+            receiveUDPMessage("230.0.0.0", 4321);
+        } catch (IOException ex) {
+            ex.printStackTrace();
+        }
     }
 }

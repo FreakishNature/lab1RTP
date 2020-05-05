@@ -4,46 +4,29 @@ import java.io.IOException;
 import java.net.DatagramPacket;
 import java.net.DatagramSocket;
 import java.net.InetAddress;
-import java.net.SocketException;
 
-public class Server extends Thread {
+public class Server {
 
-    private DatagramSocket socket;
-    private boolean running;
-    private byte[] buf = new byte[256];
-
-    public Server() throws SocketException {
-        socket = new DatagramSocket(4445);
-    }
-
-    public void run() {
-        running = true;
-
-        while (running) {
-            try {
-                DatagramPacket receivedPacket
-                        = new DatagramPacket(buf, buf.length);
-                socket.receive(receivedPacket);
-                InetAddress address = receivedPacket.getAddress();
-                int port = receivedPacket.getPort();
-
-                DatagramPacket sendPacket = new DatagramPacket(buf, buf.length, address, port);
-                String received
-                        = new String(receivedPacket.getData(), 0, receivedPacket.getLength());
-
-
-                if (received.equals("stop")) {
-                    running = false;
-                }
-                socket.send(sendPacket);
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
-        }
+    public static void sendUDPMessage(String message,
+                                      String address, int port) throws IOException {
+        DatagramSocket socket = new DatagramSocket();
+        InetAddress group = InetAddress.getByName(address);
+        byte[] msg = message.getBytes();
+        DatagramPacket packet = new DatagramPacket(msg, msg.length,
+                group, port);
+        System.out.println("Sending msg: " + message);
+        socket.send(packet);
         socket.close();
     }
 
-    public static void main(String[] args) throws SocketException {
-        new Server().start();
+    public static void main(String[] args) throws IOException, InterruptedException {
+        String address = "230.0.0.0";
+        int port = 4321;
+
+        for (int i = 0; i < 100; i++) {
+            sendUDPMessage("This is a multicast msg nr." + i, address, port);
+            Thread.sleep(1000);
+        }
+        sendUDPMessage("STOP", address, port);
     }
 }
