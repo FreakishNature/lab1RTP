@@ -1,12 +1,33 @@
-C:\Users\skeez\Desktop\hackaton\server_java\actor\src\main\java\com\proj\model\Sensor.java
-C:\Users\skeez\Desktop\hackaton\server_java\actor\src\main\java\com\proj\handlers\Handlers.java
-C:\Users\skeez\Desktop\hackaton\server_java\actor\src\main\java\com\proj\model\MessageSensor2.java
-C:\Users\skeez\Desktop\hackaton\server_java\actor\src\main\java\com\proj\actors\Handler.java
-C:\Users\skeez\Desktop\hackaton\server_java\actor\src\main\java\com\proj\actors\Actor.java
-C:\Users\skeez\Desktop\hackaton\server_java\actor\src\main\java\com\proj\handlers\Forecaster.java
-C:\Users\skeez\Desktop\hackaton\server_java\actor\src\main\java\com\proj\model\ResponseSensor2.java
-C:\Users\skeez\Desktop\hackaton\server_java\actor\src\main\java\com\proj\actors\ActorGroup.java
-C:\Users\skeez\Desktop\hackaton\server_java\actor\src\main\java\com\proj\Application.java
-C:\Users\skeez\Desktop\hackaton\server_java\actor\src\main\java\com\proj\actors\ActorSystem.java
-C:\Users\skeez\Desktop\hackaton\server_java\actor\src\main\java\com\proj\model\MessageSensor1.java
-C:\Users\skeez\Desktop\hackaton\server_java\actor\src\main\java\com\proj\model\ResponseSensor1.java
+D:\UTM\YEAR 3\RealTime prog\lab2\lab1RTP\src\main\java\com\proj\model\LegacySensorsXml.java
+D:\UTM\YEAR 3\RealTime prog\lab2\lab1RTP\src\main\java\com\proj\handlers\UnitedReceiver.java
+D:\UTM\YEAR 3\RealTime prog\lab2\lab1RTP\src\main\java\com\proj\observer\Channel.java
+D:\UTM\YEAR 3\RealTime prog\lab2\lab1RTP\src\main\java\com\proj\Application.java
+D:\UTM\YEAR 3\RealTime prog\lab2\lab1RTP\src\main\java\com\proj\UDP\Server.java
+D:\UTM\YEAR 3\RealTime prog\lab2\lab1RTP\src\main\java\com\proj\model\ResponseSensor2.java
+D:\UTM\YEAR 3\RealTime prog\lab2\lab1RTP\src\main\java\com\proj\model\MessageSensor2.java
+D:\UTM\YEAR 3\RealTime prog\lab2\lab1RTP\src\main\java\com\proj\UDP\ClientCollector.java
+D:\UTM\YEAR 3\RealTime prog\lab2\lab1RTP\src\main\java\com\proj\handlers\LegacySensorReceiver.java
+D:\UTM\YEAR 3\RealTime prog\lab2\lab1RTP\src\main\java\com\proj\MQTT\Test.java
+D:\UTM\YEAR 3\RealTime prog\lab2\lab1RTP\src\main\java\com\proj\model\Iot.java
+D:\UTM\YEAR 3\RealTime prog\lab2\lab1RTP\src\main\java\com\proj\model\Sensor.java
+D:\UTM\YEAR 3\RealTime prog\lab2\lab1RTP\src\main\java\com\proj\observer\Publisher.java
+D:\UTM\YEAR 3\RealTime prog\lab2\lab1RTP\src\main\java\com\proj\actors\Actor.java
+D:\UTM\YEAR 3\RealTime prog\lab2\lab1RTP\src\main\java\com\proj\model\LegacySensors.java
+D:\UTM\YEAR 3\RealTime prog\lab2\lab1RTP\src\main\java\com\proj\actors\Handler.java
+D:\UTM\YEAR 3\RealTime prog\lab2\lab1RTP\src\main\java\com\proj\model\SensorsResponse.java
+D:\UTM\YEAR 3\RealTime prog\lab2\lab1RTP\src\main\java\com\proj\observer\Test.java
+D:\UTM\YEAR 3\RealTime prog\lab2\lab1RTP\src\main\java\com\proj\model\ResponseSensor1.java
+D:\UTM\YEAR 3\RealTime prog\lab2\lab1RTP\src\main\java\com\proj\MQTT\StubSensor.java
+D:\UTM\YEAR 3\RealTime prog\lab2\lab1RTP\src\main\java\com\proj\UDP\Client.java
+D:\UTM\YEAR 3\RealTime prog\lab2\lab1RTP\src\main\java\com\proj\handlers\IotReceiver.java
+D:\UTM\YEAR 3\RealTime prog\lab2\lab1RTP\src\main\java\com\proj\model\MessageSensor1.java
+D:\UTM\YEAR 3\RealTime prog\lab2\lab1RTP\src\main\java\com\proj\actors\ActorSystem.java
+D:\UTM\YEAR 3\RealTime prog\lab2\lab1RTP\src\main\java\com\proj\handlers\Forecaster.java
+D:\UTM\YEAR 3\RealTime prog\lab2\lab1RTP\src\main\java\com\proj\UDP\Topic.java
+D:\UTM\YEAR 3\RealTime prog\lab2\lab1RTP\src\main\java\com\proj\model\Sensors.java
+D:\UTM\YEAR 3\RealTime prog\lab2\lab1RTP\src\main\java\com\proj\observer\Subscriber.java
+D:\UTM\YEAR 3\RealTime prog\lab2\lab1RTP\src\main\java\com\proj\actors\ActorGroup.java
+D:\UTM\YEAR 3\RealTime prog\lab2\lab1RTP\src\main\java\com\proj\model\IotResponse.java
+D:\UTM\YEAR 3\RealTime prog\lab2\lab1RTP\src\main\java\com\proj\handlers\MessageBroker.java
+D:\UTM\YEAR 3\RealTime prog\lab2\lab1RTP\src\main\java\com\proj\handlers\Handlers.java
+D:\UTM\YEAR 3\RealTime prog\lab2\lab1RTP\src\main\java\com\proj\handlers\SensorReceiver.java
