@@ -14,7 +14,7 @@ import java.util.Set;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ConcurrentSkipListSet;
 
-public class CollectorSubscriber {
+public class CollectorSubscriber extends Subscriber {
     static ObjectMapper mapper = new ObjectMapper();
     static Map<String, Iot> iotSensors = new ConcurrentHashMap<>();
     static Map<String, Sensors> sensors = new ConcurrentHashMap<>();
@@ -113,7 +113,7 @@ public class CollectorSubscriber {
     }
 
     public static void prettyPrint(Sensor sensor) {
-        System.out.println("\n" +
+        System.out.println(
                 "\n Temperature - " + sensor.getTemperatureSensor() +
                 "\n Humidity - " + sensor.getHumiditySensor() +
                 "\n Atmosphere pressure - " + sensor.getAtmoPressureSensor() +
@@ -124,36 +124,16 @@ public class CollectorSubscriber {
 
     public static void main(String[] args) throws IOException, ClassNotFoundException, InterruptedException {
 
-        Thread legacyThread = new Thread(() -> {
-            try {
-                receiveUDPMessage("LEGACY_SENSORS");
-            } catch (IOException | ClassNotFoundException e) {
-                e.printStackTrace();
-            }
-        });
+        CollectorSubscriber subscriber = new CollectorSubscriber();
 
-        Thread sensorsThread = new Thread(() -> {
-            try {
-                receiveUDPMessage("SENSORS");
-            } catch (IOException | ClassNotFoundException e) {
-                e.printStackTrace();
-            }
-        });
+        subscriber.subscribe("LEGACY_SENSORS", CollectorSubscriber::collect);
+        subscriber.subscribe("SENSORS", CollectorSubscriber::collect);
+        subscriber.subscribe("IOT", CollectorSubscriber::collect);
 
-        Thread iorThread = new Thread(() -> {
-            try {
-                receiveUDPMessage("IOT");
-            } catch (IOException | ClassNotFoundException e) {
-                e.printStackTrace();
-            }
-        });
+        Thread.sleep(60_000);
 
-        legacyThread.start();
-        sensorsThread.start();
-        iorThread.start();
-
-        legacyThread.join();
-        sensorsThread.join();
-        iorThread.join();
+        subscriber.unsubscribe("LEGACY_SENSORS");
+        subscriber.unsubscribe("SENSORS");
+        subscriber.unsubscribe("IOT");
     }
 }

@@ -42117,3 +42117,2103 @@
 [Thread-722] WARN  com.proj.actors.Actor  - Panic exception
 [Thread-721] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot1 was recreated
 [Thread-722] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-7] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-7] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors1 was recreated
+[Thread-17] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-6] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-17] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot2 was recreated
+[Thread-6] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-52] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-52] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-23] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-23] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors6 was recreated
+[Thread-4] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-4] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-18] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-18] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors4 was recreated
+[Thread-5] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-5] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-66] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-66] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-62] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-62] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-53] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-53] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-85] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-85] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-86] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-86] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-87] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-87] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-98] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-98] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot1 was recreated
+[Thread-73] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-73] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-114] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-114] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-93] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-93] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-115] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-115] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-88] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-88] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-120] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-120] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors2 was recreated
+[Thread-122] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-122] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors2 was recreated
+[Thread-118] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-118] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-116] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-116] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-121] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-121] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-128] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-128] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-129] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-129] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-127] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-127] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-145] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-145] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-150] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-150] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-160] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-160] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors2 was recreated
+[Thread-137] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-137] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-136] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-136] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-159] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-159] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-205] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-205] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot2 was recreated
+[Thread-208] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-208] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors3 was recreated
+[Thread-196] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-196] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-199] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-199] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-222] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-222] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-221] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-221] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-224] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-224] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-225] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-225] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-200] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-200] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-7] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-7] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors1 was recreated
+[Thread-4] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-5] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-17] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-4] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-50] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-17] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot1 was recreated
+[Thread-5] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-50] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-6] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-6] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-24] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-24] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors6 was recreated
+[Thread-18] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-18] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors3 was recreated
+[Thread-52] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-52] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-53] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-56] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-53] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-56] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-76] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-75] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-76] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-75] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-80] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-80] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot1 was recreated
+[Thread-92] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-92] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors2 was recreated
+[Thread-68] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-68] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-104] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-104] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-77] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-78] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-77] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-78] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-105] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-105] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-112] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-112] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-115] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-115] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-117] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-117] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-106] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-106] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-111] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-111] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-119] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-119] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-120] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-120] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-118] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-118] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-136] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-136] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-137] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-137] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors1 was recreated
+[Thread-148] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-148] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-174] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-174] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors2 was recreated
+[Thread-126] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-126] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-125] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-125] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-187] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-187] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot2 was recreated
+[Thread-163] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-163] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-188] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-188] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-182] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-182] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-198] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-198] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-200] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-200] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-203] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-203] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-204] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-204] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-197] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-197] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-216] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-216] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-217] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-217] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-222] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-222] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-232] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-232] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-233] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-233] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-234] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-234] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-235] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-235] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-236] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-236] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-239] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-239] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-247] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-247] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-248] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-248] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-253] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-253] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-256] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-256] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-205] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-205] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-265] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-265] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors3 was recreated
+[Thread-262] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-262] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-210] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-210] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-277] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-277] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-274] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-274] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors2 was recreated
+[Thread-273] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-273] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors1 was recreated
+[Thread-297] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-297] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot8 was recreated
+[Thread-280] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-280] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot2 was recreated
+[Thread-287] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-287] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot3 was recreated
+[Thread-291] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-291] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors3 was recreated
+[Thread-293] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-293] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors5 was recreated
+[Thread-296] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-296] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot3 was recreated
+[Thread-303] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-303] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot1 was recreated
+[Thread-304] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-304] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot7 was recreated
+[Thread-306] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-306] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot9 was recreated
+[Thread-290] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-290] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors1 was recreated
+[Thread-299] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-299] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot3 was recreated
+[Thread-281] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-281] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-284] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-284] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-324] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-324] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot1 was recreated
+[Thread-352] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-352] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot8 was recreated
+[Thread-329] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-329] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-341] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-341] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors2 was recreated
+[Thread-333] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-333] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-343] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-343] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors3 was recreated
+[Thread-350] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-350] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot1 was recreated
+[Thread-354] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-354] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot3 was recreated
+[Thread-359] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-359] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors5 was recreated
+[Thread-371] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-371] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors1 was recreated
+[Thread-374] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-374] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-368] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-368] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-260] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-260] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-390] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-390] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-391] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-391] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-393] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-393] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-394] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-394] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-392] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-392] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-398] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-398] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors1 was recreated
+[Thread-401] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-401] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors1 was recreated
+[Thread-395] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-395] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-410] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-410] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-396] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-396] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-397] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-397] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-422] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-422] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot1 was recreated
+[Thread-431] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-431] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-417] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-417] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-424] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-424] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-457] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-457] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors2 was recreated
+[Thread-460] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-460] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-472] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-472] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors1 was recreated
+[Thread-455] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-455] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-477] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-477] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-471] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-471] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-458] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-458] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-483] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-483] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-482] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-482] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-489] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-491] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-489] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-502] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-494] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-496] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-491] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-496] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot1 was recreated
+[Thread-494] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors1 was recreated
+[Thread-502] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors2 was recreated
+[Thread-509] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-509] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-503] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-503] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-520] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-520] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-481] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-481] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-527] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-527] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-530] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-530] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-535] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-535] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-525] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-525] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-540] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-540] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-526] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-526] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-542] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-542] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-539] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-539] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-541] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-541] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-550] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-550] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors1 was recreated
+[Thread-543] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-543] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-556] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-556] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-546] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-546] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-561] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-561] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-548] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-548] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-558] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-558] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-563] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-563] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-564] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-564] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-565] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-565] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-569] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-569] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors1 was recreated
+[Thread-568] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-568] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-577] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-577] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot1 was recreated
+[Thread-578] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-578] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot2 was recreated
+[Thread-562] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-593] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-562] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-593] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot1 was recreated
+[Thread-604] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-604] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-572] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-572] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-566] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-566] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-607] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-607] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-608] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-608] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-609] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-609] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-610] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-610] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-611] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-611] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-612] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-612] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-606] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-606] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-615] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-615] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-613] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-613] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-614] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-614] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-637] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-637] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-639] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-639] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-641] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-641] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-638] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-638] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-648] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-648] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-655] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-655] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot1 was recreated
+[Thread-659] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-659] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot1 was recreated
+[Thread-645] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-645] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-672] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-672] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot4 was recreated
+[Thread-653] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-653] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-680] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-680] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-684] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-684] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors4 was recreated
+[Thread-687] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-687] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-685] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-685] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot2 was recreated
+[Thread-692] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-693] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-692] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-693] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors4 was recreated
+[Thread-691] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-691] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors3 was recreated
+[Thread-705] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-705] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot1 was recreated
+[Thread-704] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-704] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-716] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-716] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot1 was recreated
+[Thread-706] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-706] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-721] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-721] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors1 was recreated
+[Thread-714] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-714] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-725] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-725] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-732] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-732] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-733] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-733] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-734] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-734] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-735] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-735] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-736] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-736] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-737] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-737] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-738] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-756] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-738] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-756] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors1 was recreated
+[Thread-764] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-764] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors3 was recreated
+[Thread-760] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-760] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-772] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-772] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot4 was recreated
+[Thread-774] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-774] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot3 was recreated
+[Thread-782] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-782] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-785] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-785] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors3 was recreated
+[Thread-779] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-779] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors1 was recreated
+[Thread-812] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-812] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors2 was recreated
+[Thread-739] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-739] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-804] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-804] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-836] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-836] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-837] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-837] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-840] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-840] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-841] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-841] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-633] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-633] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-844] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-844] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-852] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-852] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-842] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-842] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-843] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-843] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-859] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-859] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-863] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-863] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-871] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-871] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors1 was recreated
+[Thread-864] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-864] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot1 was recreated
+[Thread-884] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-884] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors2 was recreated
+[Thread-886] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-886] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors1 was recreated
+[Thread-895] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-895] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot7 was recreated
+[Thread-892] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-892] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot5 was recreated
+[Thread-877] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-877] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-853] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-853] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-896] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-896] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors1 was recreated
+[Thread-907] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-907] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot3 was recreated
+[Thread-881] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-881] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-931] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-931] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot9 was recreated
+[Thread-933] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-933] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot11 was recreated
+[Thread-946] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-946] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors6 was recreated
+[Thread-949] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-949] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors9 was recreated
+[Thread-964] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-964] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-974] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-974] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-993] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-993] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-953] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-953] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-1003] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-1003] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-983] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-983] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-1015] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-1015] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-1016] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-1016] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-1017] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-1017] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-1018] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-1018] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-997] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-997] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-1035] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-1035] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors1 was recreated
+[Thread-1019] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-1019] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-1041] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-1041] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-1047] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-1047] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors2 was recreated
+[Thread-1049] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-1049] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors2 was recreated
+[Thread-1044] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-1044] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-1034] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-1034] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-1006] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-1006] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-8] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-8] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors1 was recreated
+[Thread-15] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-6] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-35] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-17] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-5] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-4] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-15] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot1 was recreated
+[Thread-17] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors1 was recreated
+[Thread-4] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-5] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-35] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors2 was recreated
+[Thread-6] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-53] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-53] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-54] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-54] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-57] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-56] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-57] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-56] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-74] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-73] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-74] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-73] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-82] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-82] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot1 was recreated
+[Thread-88] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-88] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors3 was recreated
+[Thread-68] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-68] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-99] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-99] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-76] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-75] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-76] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-75] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-100] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-100] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-105] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-105] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors1 was recreated
+[Thread-109] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-109] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-112] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-112] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-102] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-102] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-101] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-101] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-117] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-117] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-118] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-118] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-115] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-115] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-139] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-139] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-143] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-143] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors3 was recreated
+[Thread-163] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-163] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors4 was recreated
+[Thread-131] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-131] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-132] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-132] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-141] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-141] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-188] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-188] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors1 was recreated
+[Thread-192] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-192] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot4 was recreated
+[Thread-181] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-181] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-189] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-189] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-208] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-208] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-209] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-209] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-210] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-210] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-211] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-211] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-198] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-198] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-227] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-227] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-229] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-229] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-234] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-234] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-243] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-243] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-244] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-244] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-245] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-245] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-246] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-246] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-247] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-247] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-250] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-250] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-262] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-261] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-262] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-261] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors2 was recreated
+[Thread-269] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-269] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors2 was recreated
+[Thread-268] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-268] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-213] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-213] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-218] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-218] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-278] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-278] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-292] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-284] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-289] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-292] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-284] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot1 was recreated
+[Thread-289] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot2 was recreated
+[Thread-297] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-297] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-329] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-329] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors11 was recreated
+[Thread-303] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-303] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors4 was recreated
+[Thread-314] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-314] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot5 was recreated
+[Thread-320] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-320] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors8 was recreated
+[Thread-312] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-312] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-319] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-319] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot4 was recreated
+[Thread-316] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-324] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-316] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot3 was recreated
+[Thread-298] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-324] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot5 was recreated
+[Thread-298] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors1 was recreated
+[Thread-330] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-301] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-330] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-301] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors2 was recreated
+[Thread-333] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-333] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors3 was recreated
+[Thread-322] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-322] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot1 was recreated
+[Thread-360] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-360] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors3 was recreated
+[Thread-345] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-345] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-353] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-353] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors5 was recreated
+[Thread-357] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-357] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors2 was recreated
+[Thread-358] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-350] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-358] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot6 was recreated
+[Thread-350] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors1 was recreated
+[Thread-365] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-365] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot8 was recreated
+[Thread-368] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-368] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot11 was recreated
+[Thread-378] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-378] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot5 was recreated
+[Thread-386] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-386] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors2 was recreated
+[Thread-379] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-379] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-356] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-356] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-273] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-273] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-407] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-407] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-408] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-408] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-410] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-410] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-411] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-411] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-409] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-409] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-414] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-414] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-416] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-416] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-418] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-418] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-412] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-412] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-432] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-432] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-455] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-455] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors1 was recreated
+[Thread-456] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-456] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors2 was recreated
+[Thread-434] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-434] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-427] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-477] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-427] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-477] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors3 was recreated
+[Thread-413] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-413] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-475] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-475] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors1 was recreated
+[Thread-492] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-492] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot3 was recreated
+[Thread-498] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-498] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors1 was recreated
+[Thread-488] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-488] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-485] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-485] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-493] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-493] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-512] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-512] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-514] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-514] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-518] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-518] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-513] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-513] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-525] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-525] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot2 was recreated
+[Thread-537] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-537] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors4 was recreated
+[Thread-536] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-536] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors3 was recreated
+[Thread-523] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-523] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-547] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-522] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-547] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-522] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-511] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-511] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-553] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-553] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors1 was recreated
+[Thread-552] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-552] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-563] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-563] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-551] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-550] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-551] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-550] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-567] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-568] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-567] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-568] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-566] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-566] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-569] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-569] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-570] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-570] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-577] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-577] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot1 was recreated
+[Thread-581] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-581] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-575] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-575] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-589] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-589] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-578] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-578] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-587] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-587] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-591] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-591] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-592] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-592] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-593] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-593] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-596] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-597] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-596] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-597] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot1 was recreated
+[Thread-594] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-594] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-610] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-608] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-610] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-608] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors1 was recreated
+[Thread-590] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-590] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-630] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-630] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-599] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-599] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-620] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-620] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-636] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-636] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-637] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-637] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-638] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-638] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-639] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-639] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-640] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-640] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-641] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-641] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-635] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-635] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-644] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-644] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-642] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-642] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-643] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-643] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-668] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-668] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-674] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-674] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot4 was recreated
+[Thread-676] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-676] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-671] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-671] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot1 was recreated
+[Thread-669] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-669] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-691] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-691] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot2 was recreated
+[Thread-705] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-705] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot2 was recreated
+[Thread-696] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-696] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors1 was recreated
+[Thread-700] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-700] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot2 was recreated
+[Thread-699] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-699] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot1 was recreated
+[Thread-708] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-708] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors5 was recreated
+[Thread-702] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-702] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-713] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-713] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot1 was recreated
+[Thread-716] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-716] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors2 was recreated
+[Thread-735] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-735] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors2 was recreated
+[Thread-729] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-729] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors5 was recreated
+[Thread-715] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-715] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors1 was recreated
+[Thread-733] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-733] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-684] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-684] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-750] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-750] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot1 was recreated
+[Thread-746] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-746] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-757] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-757] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-748] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-748] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-760] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-760] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-762] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-762] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-763] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-763] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-764] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-764] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-765] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-765] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-766] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-766] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-767] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-767] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-768] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-768] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-784] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-784] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-787] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-787] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot2 was recreated
+[Thread-791] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-791] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot4 was recreated
+[Thread-769] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-769] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-797] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-797] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot2 was recreated
+[Thread-810] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-810] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors1 was recreated
+[Thread-827] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-827] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors4 was recreated
+[Thread-834] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-834] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors5 was recreated
+[Thread-863] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-863] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors7 was recreated
+[Thread-870] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-870] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot6 was recreated
+[Thread-856] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-856] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors1 was recreated
+[Thread-796] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-796] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-822] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-822] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-886] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-886] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-887] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-887] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-662] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-662] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-893] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-893] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-901] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-901] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-890] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-890] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-892] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-892] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-910] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-910] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-917] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-917] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-915] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-915] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-919] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-919] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot1 was recreated
+[Thread-932] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-932] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-942] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-942] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot1 was recreated
+[Thread-943] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-943] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot2 was recreated
+[Thread-935] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-935] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-969] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-969] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot2 was recreated
+[Thread-906] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-906] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-956] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-956] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors1 was recreated
+[Thread-976] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-975] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-976] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors3 was recreated
+[Thread-977] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-975] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-977] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors4 was recreated
+[Thread-948] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-948] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-987] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-987] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors4 was recreated
+[Thread-1000] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-1000] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-993] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-993] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors3 was recreated
+[Thread-1013] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-1013] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-1023] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-1023] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-1006] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-1006] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-1031] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-1031] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-1015] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-1015] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-1045] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-1045] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-1046] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-1046] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-1047] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-1047] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-1048] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-1048] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-1024] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-1024] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-1062] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-1062] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors1 was recreated
+[Thread-1049] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-1049] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-1065] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-1065] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-1073] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-1073] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors1 was recreated
+[Thread-1075] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-1075] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors2 was recreated
+[Thread-1072] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-1072] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-1055] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-1055] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-1036] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-1036] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-1096] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-1096] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-1099] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-1099] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-1104] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-1105] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-1104] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot3 was recreated
+[Thread-1105] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot4 was recreated
+[Thread-1097] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-1097] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-1117] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-1117] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-1125] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-1120] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-1125] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors1 was recreated
+[Thread-1120] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-1101] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-1101] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-1130] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-1130] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-1137] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-1137] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-1138] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-1138] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-1139] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-1139] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-1140] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-1140] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-1084] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-1084] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-1143] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-1143] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-1151] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-1151] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors4 was recreated
+[Thread-1153] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-1153] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-1156] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-1156] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-1161] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-1161] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors2 was recreated
+[Thread-1168] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-1168] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors9 was recreated
+[Thread-1162] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-1162] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors3 was recreated
+[Thread-1171] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-1171] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors7 was recreated
+[Thread-1169] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-1169] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors5 was recreated
+[Thread-1178] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-1178] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors2 was recreated
+[Thread-1160] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-1160] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-1141] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-1141] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-1187] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-1187] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-1189] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-1189] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-1142] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-1142] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-1193] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-1193] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-1194] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-1194] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-1191] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-1191] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-1196] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-1196] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-1186] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-1186] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-1201] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-1201] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-1203] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-1203] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-1217] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-1217] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors4 was recreated
+[Thread-1218] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-1218] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-1199] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-1199] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-1200] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-1200] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-1230] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-1230] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-1232] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-1232] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-1234] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-1234] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-1239] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-1239] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot1 was recreated
+[Thread-1236] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-1236] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-1231] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-1231] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-1241] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-1241] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot1 was recreated
+[Thread-1258] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-1258] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors1 was recreated
+[Thread-1261] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-1261] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors4 was recreated
+[Thread-1260] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-1260] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors3 was recreated
+[Thread-1275] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-1275] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors2 was recreated
+[Thread-1285] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-1285] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors4 was recreated
+[Thread-1229] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-1229] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-1300] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-1300] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors2 was recreated
+[Thread-1255] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-1255] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-1257] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-1257] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-1308] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-1308] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-1318] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-1318] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors5 was recreated
+[Thread-1317] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-1317] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot2 was recreated
+[Thread-1316] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-1316] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors2 was recreated
+[Thread-1321] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-1321] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-1309] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-1309] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-1336] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-1336] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot1 was recreated
+[Thread-1338] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-1338] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-1337] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-1337] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-1355] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-1355] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-1345] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-1345] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-1357] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-1357] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-1356] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-1356] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-1358] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-1358] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-1359] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-1359] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-1363] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-1363] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-1293] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-1293] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-6] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-18] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-4] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-6] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-4] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-18] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot1 was recreated
+[Thread-40] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-40] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-34] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-34] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors6 was recreated
+[Thread-19] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-19] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors4 was recreated
+[Thread-5] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-5] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-41] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-41] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-54] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-54] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-43] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-43] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-51] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-51] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-73] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-73] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-74] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-74] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-75] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-75] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-89] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-89] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors3 was recreated
+[Thread-58] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-58] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-97] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-97] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-98] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-98] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-102] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-102] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-79] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-76] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-105] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-79] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-105] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-76] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-110] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-110] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-108] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-108] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-111] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-111] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-113] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-113] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-114] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-114] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-112] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-112] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-127] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-127] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors1 was recreated
+[Thread-128] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-128] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-139] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-139] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors1 was recreated
+[Thread-121] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-121] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-142] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-142] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-175] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-175] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot1 was recreated
+[Thread-192] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-192] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot1 was recreated
+[Thread-189] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-189] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors1 was recreated
+[Thread-200] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-200] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors5 was recreated
+[Thread-197] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-197] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors1 was recreated
+[Thread-171] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-171] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-122] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-122] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-212] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-212] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-213] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-213] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-179] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-179] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-226] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-226] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-227] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-227] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-234] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-234] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-250] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-250] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-251] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-251] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-252] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-252] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-253] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-253] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-254] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-254] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-256] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-256] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-265] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-267] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-265] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors1 was recreated
+[Thread-267] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-273] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-273] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors1 was recreated
+[Thread-275] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-275] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-214] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-214] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-282] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-282] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-286] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-286] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot1 was recreated
+[Thread-293] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-293] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot1 was recreated
+[Thread-288] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-288] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-299] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-299] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-302] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-303] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-219] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-302] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot2 was recreated
+[Thread-219] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-303] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot3 was recreated
+[Thread-298] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-298] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot1 was recreated
+[Thread-317] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-317] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors3 was recreated
+[Thread-312] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-312] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-337] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-337] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors9 was recreated
+[Thread-328] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-328] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors4 was recreated
+[Thread-309] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-309] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-341] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-341] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors4 was recreated
+[Thread-334] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-334] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors3 was recreated
+[Thread-324] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-324] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot1 was recreated
+[Thread-342] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-342] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors1 was recreated
+[Thread-357] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-357] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot1 was recreated
+[Thread-345] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-345] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors6 was recreated
+[Thread-348] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-348] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-340] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-340] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-361] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-361] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors1 was recreated
+[Thread-383] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-383] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors9 was recreated
+[Thread-370] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-370] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot6 was recreated
+[Thread-368] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-368] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot3 was recreated
+[Thread-375] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-375] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors4 was recreated
+[Thread-390] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-390] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors4 was recreated
+[Thread-394] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-394] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors3 was recreated
+[Thread-367] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-367] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-373] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-373] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-281] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-281] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-407] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-407] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-408] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-408] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-410] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-410] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-411] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-411] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-409] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-409] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-414] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-414] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-417] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-417] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-418] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-418] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-412] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-412] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-433] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-433] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot1 was recreated
+[Thread-425] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-425] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-436] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-436] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-413] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-413] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-470] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-470] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot1 was recreated
+[Thread-461] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-461] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors3 was recreated
+[Thread-459] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-459] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors1 was recreated
+[Thread-465] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-465] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors1 was recreated
+[Thread-496] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-496] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors3 was recreated
+[Thread-499] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-499] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors5 was recreated
+[Thread-463] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-463] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-468] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-468] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-469] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-469] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-509] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-509] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-512] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-512] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-521] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-521] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-524] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-524] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-510] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-510] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-540] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-535] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-540] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors3 was recreated
+[Thread-535] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-549] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-549] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors2 was recreated
+[Thread-527] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-527] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-550] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-550] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-508] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-508] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-555] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-555] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-558] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-558] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-567] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-567] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-552] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-552] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-570] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-570] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-569] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-569] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-553] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-553] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-577] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-577] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-571] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-571] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-580] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-580] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-578] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-578] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-588] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-588] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors1 was recreated
+[Thread-576] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-576] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-592] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-592] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-583] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-583] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-587] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-587] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-594] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-594] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-595] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-595] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-596] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-596] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-599] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-599] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-600] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-600] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-593] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-616] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-597] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-593] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-597] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-616] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors1 was recreated
+[Thread-619] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-620] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-619] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-620] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-602] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-602] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-640] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-640] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-629] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-629] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-641] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-641] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-642] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-642] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-644] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-644] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-643] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-643] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-645] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-645] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-628] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-628] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-648] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-648] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-646] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-646] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-647] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-647] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-672] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-672] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-674] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-674] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-676] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-676] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-684] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-684] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot3 was recreated
+[Thread-679] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-679] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-691] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-691] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot2 was recreated
+[Thread-673] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-673] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-696] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-696] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot3 was recreated
+[Thread-697] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-697] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-698] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-698] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot4 was recreated
+[Thread-705] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-705] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors2 was recreated
+[Thread-704] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-704] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors1 was recreated
+[Thread-703] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-703] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-720] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-720] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-733] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-733] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-734] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-734] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-732] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-732] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors2 was recreated
+[Thread-737] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-737] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-710] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-710] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-742] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-742] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-741] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-741] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-748] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-748] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-744] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-744] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-751] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-751] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-754] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-754] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-755] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-755] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-756] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-756] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-757] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-757] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-758] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-758] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-759] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-759] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-760] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-760] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-769] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-769] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-775] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-775] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-773] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-773] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot1 was recreated
+[Thread-784] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-784] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot5 was recreated
+[Thread-808] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-808] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors1 was recreated
+[Thread-761] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-761] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-778] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-778] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-824] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-824] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors3 was recreated
+[Thread-834] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-834] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors5 was recreated
+[Thread-853] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-853] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors5 was recreated
+[Thread-832] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-832] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-848] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-848] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-866] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-866] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-867] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-867] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-868] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-868] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-666] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-666] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-871] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-871] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-879] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-879] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-869] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-869] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-890] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-890] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-903] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-903] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot1 was recreated
+[Thread-907] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-907] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot2 was recreated
+[Thread-896] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-896] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-911] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-911] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot2 was recreated
+[Thread-909] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-909] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot3 was recreated
+[Thread-870] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-870] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-919] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-919] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot6 was recreated
+[Thread-934] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-934] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors3 was recreated
+[Thread-941] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-941] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors2 was recreated
+[Thread-930] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-930] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-947] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-947] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors7 was recreated
+[Thread-950] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-950] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors8 was recreated
+[Thread-884] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-884] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-924] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-973] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-924] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-973] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors5 was recreated
+[Thread-960] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-960] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors2 was recreated
+[Thread-988] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-988] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-978] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-978] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-993] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-993] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-998] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-998] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot1 was recreated
+[Thread-997] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-997] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-1008] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-1008] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-996] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-996] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-1015] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-1015] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-1016] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-1016] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-1017] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-1017] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-1018] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-1018] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-1001] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-1001] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-1019] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-1019] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-1027] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-1027] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-1032] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-1032] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors2 was recreated
+[Thread-1041] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-1041] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors9 was recreated
+[Thread-1034] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-1034] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors2 was recreated
+[Thread-1010] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-1010] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-1026] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-1026] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-1073] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-1073] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-1078] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-1078] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-1080] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-1080] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-1082] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-1082] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-1085] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-1085] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-1079] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-1079] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-1090] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-1090] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-1092] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-1092] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-1096] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-1096] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-8] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-8] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors1 was recreated
+[Thread-16] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-6] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-16] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot2 was recreated
+[Thread-6] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-48] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-48] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-24] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-24] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors6 was recreated
+[Thread-21] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-21] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors4 was recreated
+[Thread-4] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-4] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-5] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-5] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-65] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-65] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-64] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-64] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-51] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-51] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-92] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-92] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-93] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-93] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-94] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-94] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-107] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-107] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot2 was recreated
+[Thread-83] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-83] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-114] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-114] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-118] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-118] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors1 was recreated
+[Thread-115] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-115] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-126] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-126] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-98] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-98] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-95] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-95] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-127] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-127] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-130] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-130] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-129] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-129] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-133] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-133] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-134] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-134] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-132] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-132] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-152] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-152] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-154] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-154] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-176] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-176] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors7 was recreated
+[Thread-144] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-144] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-167] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-167] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-197] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-197] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot1 was recreated
+[Thread-145] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-145] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-214] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-214] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors3 was recreated
+[Thread-219] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-219] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-230] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-230] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot1 was recreated
+[Thread-202] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-202] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-229] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-229] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-235] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-235] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-236] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-236] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-203] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-203] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-250] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-250] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-252] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-252] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-259] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-259] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-269] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-269] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-270] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-270] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-271] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-271] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-272] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-272] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-273] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-273] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-276] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-277] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-276] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-277] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors1 was recreated
+[Thread-291] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-291] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors3 was recreated
+[Thread-296] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-296] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors3 was recreated
+[Thread-288] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-288] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-303] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-303] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot1 was recreated
+[Thread-237] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-237] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-314] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-314] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors1 was recreated
+[Thread-243] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-243] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-322] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-322] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot2 was recreated
+[Thread-312] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-312] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-324] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-324] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot2 was recreated
+[Thread-329] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-329] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot4 was recreated
+[Thread-331] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-331] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot5 was recreated
+[Thread-332] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-332] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot6 was recreated
+[Thread-340] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-340] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors2 was recreated
+[Thread-346] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-346] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors2 was recreated
+[Thread-326] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-326] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-351] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-351] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors1 was recreated
+[Thread-348] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-323] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-348] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-323] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-362] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-362] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-358] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-358] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors2 was recreated
+[Thread-359] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-359] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors2 was recreated
+[Thread-372] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-372] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot1 was recreated
+[Thread-364] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-364] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-373] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-373] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-387] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-387] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-374] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-374] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors1 was recreated
+[Thread-394] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-394] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-391] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-391] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors2 was recreated
+[Thread-408] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-408] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors1 was recreated
+[Thread-416] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-416] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors8 was recreated
+[Thread-413] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-413] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors5 was recreated
+[Thread-404] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-404] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot2 was recreated
+[Thread-409] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-409] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-400] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-400] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-301] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-301] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-431] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-431] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-432] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-432] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-434] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-434] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-435] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-435] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-433] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-433] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-438] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-438] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-442] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-442] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-445] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-445] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-436] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-436] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-456] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-456] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot1 was recreated
+[Thread-437] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-437] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-452] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-452] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-479] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-479] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors4 was recreated
+[Thread-455] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-455] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-495] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-495] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors1 was recreated
+[Thread-484] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-484] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-508] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-508] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot3 was recreated
+[Thread-493] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-493] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-520] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-520] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors2 was recreated
+[Thread-523] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-523] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-504] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-504] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-514] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-514] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-529] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-529] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-531] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-531] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-536] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-536] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-538] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-538] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot1 was recreated
+[Thread-530] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-530] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-553] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-553] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors1 was recreated
+[Thread-548] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-548] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-559] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-559] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-537] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-537] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-564] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-564] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-528] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-528] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-569] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-569] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors1 was recreated
+[Thread-567] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-567] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-577] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-577] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-565] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-565] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-582] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-582] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-566] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-566] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-584] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-584] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-581] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-581] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-583] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-583] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-591] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-591] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-586] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-586] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-598] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-598] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors1 was recreated
+[Thread-588] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-588] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-603] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-603] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-593] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-593] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-597] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-597] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-605] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-605] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-606] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-606] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-607] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-607] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-609] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-609] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot1 was recreated
+[Thread-616] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-616] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot1 was recreated
+[Thread-608] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-608] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-604] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-604] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-632] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-632] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-634] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-634] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors-1 was recreated
+[Thread-633] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-633] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-615] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-615] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-657] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-657] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-636] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-636] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-658] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-658] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-659] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-659] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-661] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-661] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-660] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-660] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-662] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-662] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-654] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-654] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-665] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-665] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverSensors0 was recreated
+[Thread-663] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-663] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-664] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-664] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-685] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-685] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-687] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-687] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-690] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-690] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-693] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-693] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-701] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-701] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot1 was recreated
+[Thread-709] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-709] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot4 was recreated
+[Thread-711] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-711] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot5 was recreated
+[Thread-714] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-714] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot1 was recreated
+[Thread-707] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-707] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot3 was recreated
+[Thread-686] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-686] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-723] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-723] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors1 was recreated
+[Thread-725] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-725] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-731] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-731] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-742] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-742] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-744] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-744] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors1 was recreated
+[Thread-746] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-746] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors3 was recreated
+[Thread-749] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-749] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors3 was recreated
+[Thread-757] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-757] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors1 was recreated
+[Thread-700] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-700] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-767] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-767] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot1 was recreated
+[Thread-750] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-750] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated
+[Thread-775] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-775] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors1 was recreated
+[Thread-766] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-766] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverIot0 was recreated
+[Thread-776] WARN  com.proj.actors.Actor  - Panic exception
+[Thread-776] INFO  com.proj.actors.ActorSystem  - Actor dataReceiverLegacySensors0 was recreated

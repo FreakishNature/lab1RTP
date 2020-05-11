@@ -100,6 +100,7 @@ public class Application {
                 while (true) {
                     DatagramPacket packet = new DatagramPacket(buffer, buffer.length);
                     socket.receive(packet);
+
                     String msg = new String(packet.getData(), packet.getOffset(), packet.getLength());
                     System.out.println("Received - " +msg);
                     actorSystem.sendMessage("unitedReceiver", msg);
