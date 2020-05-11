@@ -1,6 +1,7 @@
 package com.proj.UDP;
 
 import com.proj.handlers.MessageBroker;
+import org.eclipse.paho.client.mqttv3.MqttException;
 
 import java.io.IOException;
 import java.net.DatagramPacket;
@@ -11,10 +12,12 @@ public class Subscription extends Thread {
     String topic;
     volatile boolean subscribed = true;
     Processor process;
-    public void unsubscribe(){
+
+    public void unsubscribe() {
         subscribed = false;
     }
-    public Subscription(String topic,Processor process){
+
+    public Subscription(String topic, Processor process) {
         this.topic = topic;
         this.process = process;
     }
@@ -42,7 +45,11 @@ public class Subscription extends Thread {
             socket.receive(packet);
             String msg = new String(packet.getData(), packet.getOffset(), packet.getLength());
 
-            process.process(msg, topic);
+            try {
+                process.process(msg, topic);
+            } catch (MqttException e) {
+                e.printStackTrace();
+            }
         }
         socket.leaveGroup(group);
         socket.close();

@@ -6,9 +6,6 @@ import com.proj.handlers.MessageBroker;
 import com.proj.model.*;
 
 import java.io.IOException;
-import java.net.DatagramPacket;
-import java.net.InetAddress;
-import java.net.MulticastSocket;
 import java.util.Map;
 import java.util.Set;
 import java.util.concurrent.ConcurrentHashMap;
@@ -87,42 +84,17 @@ public class CollectorSubscriber extends Subscriber {
         }
     }
 
-    public static void receiveUDPMessage(String topic) throws IOException, ClassNotFoundException {
-        String ip = MessageBroker.topics.get(topic).host;
-        int port = MessageBroker.topics.get(topic).port;
-
-        byte[] buffer = new byte[2048];
-        MulticastSocket socket = new MulticastSocket(port);
-        InetAddress group = InetAddress.getByName(ip);
-        socket.joinGroup(group);
-        while (true) {
-            DatagramPacket packet = new DatagramPacket(buffer, buffer.length);
-            socket.receive(packet);
-
-            String msg = new String(packet.getData(), packet.getOffset(), packet.getLength());
-
-            collect(msg, topic);
-
-            if ("STOP".equals(msg)) {
-                System.out.println("No more messages. Stopping : " + msg);
-                break;
-            }
-        }
-        socket.leaveGroup(group);
-        socket.close();
-    }
-
     public static void prettyPrint(Sensor sensor) {
         System.out.println(
                 "\n Temperature - " + sensor.getTemperatureSensor() +
-                "\n Humidity - " + sensor.getHumiditySensor() +
-                "\n Atmosphere pressure - " + sensor.getAtmoPressureSensor() +
-                "\n Light - " + sensor.getLightSensor() +
-                "\n Wind speed - " + sensor.getWindSpeedSensor());
+                        "\n Humidity - " + sensor.getHumiditySensor() +
+                        "\n Atmosphere pressure - " + sensor.getAtmoPressureSensor() +
+                        "\n Light - " + sensor.getLightSensor() +
+                        "\n Wind speed - " + sensor.getWindSpeedSensor());
     }
 
 
-    public static void main(String[] args) throws IOException, ClassNotFoundException, InterruptedException {
+    public static void main(String[] args) throws InterruptedException {
 
         CollectorSubscriber subscriber = new CollectorSubscriber();
 

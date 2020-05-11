@@ -1,39 +1,26 @@
 package com.proj.UDP;
 
+import com.proj.MQTT.StubSensor;
 import org.eclipse.paho.client.mqttv3.*;
 
-import java.util.Random;
 import java.util.UUID;
-import java.util.concurrent.Callable;
+import java.util.concurrent.CountDownLatch;
+import java.util.concurrent.TimeUnit;
 
-public class MqttAdapterSubscriber extends Subscriber implements Callable<Void> {
+public class MqttAdapterSubscriber extends Subscriber {
 
     private IMqttClient client;
-    public static String TOPIC = "test";
-    private Random rnd = new Random();
+    public static final String TOPIC = "FORECAST";
 
     public MqttAdapterSubscriber(IMqttClient client) {
         this.client = client;
-    }
-
-    @Override
-    public Void call() throws Exception {
-        if ( !client.isConnected()) {
-            return null;
-        }
-        MqttMessage msg = readEngineTemp();
-        msg.setQos(0);
-        msg.setRetained(true);
-        System.out.println(msg.toString());
-        client.publish(TOPIC,msg);
-        return null;
     }
 
 
     public static void main(String[] args) throws InterruptedException, MqttException {
         String server = "tcp://mqtt.eclipse.org:1883";      //public MQTT broker hosted by the Paho project
         String publisherId = UUID.randomUUID().toString();
-        IMqttClient client = new MqttClient(server,publisherId);
+        IMqttClient client = new MqttClient(server, publisherId);
 
         MqttConnectOptions options = new MqttConnectOptions();
         options.setAutomaticReconnect(true);
@@ -42,22 +29,31 @@ public class MqttAdapterSubscriber extends Subscriber implements Callable<Void> 
         client.connect(options);
 
 
-        MqttAdapterSubscriber subscriber = new MqttAdapterSubscriber();
+        MqttAdapterSubscriber subscriber = new MqttAdapterSubscriber(client);
 
-        subscriber.subscribe("DATA_UNITED", (msg,topic)->{
-            if ( !client.isConnected()) {
-                return null;
+        subscriber.subscribe("JOINED_DATA", (msg, topic) -> {
+            System.out.println("Message received from MY broker: " + msg);
+            if (!client.isConnected()) {
+                return;
             }
-            MqttMessage msg = readEngineTemp();
-            msg.setQos(0);
-            msg.setRetained(true);
-            System.out.println(msg.toString());
-            client.publish(TOPIC,msg);
+            MqttMessage mqttMsg = new MqttMessage(msg.getBytes());
+            mqttMsg.setQos(0);
+            mqttMsg.setRetained(true);
+            client.publish(TOPIC, mqttMsg);
+            System.out.println("Message send to MQTT broker: " + msg);
         });
 
-        Thread.sleep(60_000);
+        // receives message from MQTT broker, own message is received in this case as publisher=subscriber
+        CountDownLatch receivedSignal = new CountDownLatch(10);
+        client.subscribe(TOPIC, (topic, msg) -> {
+            byte[] payload = msg.getPayload();
+            System.out.println("Message received from MQTT broker: " + msg);
+            receivedSignal.countDown();
+        });
+        receivedSignal.await(5, TimeUnit.SECONDS);
 
-        subscriber.unsubscribe("DATA_UNITED");
+        Thread.sleep(60_000);
+        subscriber.unsubscribe("JOINED_DATA");
     }
 
 }

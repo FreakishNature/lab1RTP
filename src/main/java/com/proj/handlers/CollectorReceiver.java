@@ -7,7 +7,7 @@ import com.proj.model.MessageSensor1;
 
 import java.io.IOException;
 
-public class UnitedReceiver extends Handler {
+public class CollectorReceiver extends Handler {
     ObjectMapper mapper = new ObjectMapper();
 
     @Override
