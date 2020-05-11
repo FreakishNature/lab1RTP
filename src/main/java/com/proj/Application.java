@@ -94,8 +94,8 @@ public class Application {
             byte[] buffer = new byte[2048];
             MulticastSocket socket = null;
             try {
-                socket = new MulticastSocket(MessageBroker.UNITE_PORT);
-                InetAddress group = InetAddress.getByName(MessageBroker.UNITE_SUBSCRIBER_HOST);
+                socket = new MulticastSocket(MessageBroker.topics.get("COLLECTOR").getPort());
+                InetAddress group = InetAddress.getByName(MessageBroker.topics.get("COLLECTOR").getHost());
                 socket.joinGroup(group);
                 while (true) {
                     DatagramPacket packet = new DatagramPacket(buffer, buffer.length);

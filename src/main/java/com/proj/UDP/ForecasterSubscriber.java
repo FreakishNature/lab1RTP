@@ -2,17 +2,15 @@ package com.proj.UDP;
 
 import com.proj.handlers.MessageBroker;
 
-import java.io.ByteArrayInputStream;
 import java.io.IOException;
-import java.io.ObjectInputStream;
 import java.net.DatagramPacket;
 import java.net.InetAddress;
 import java.net.MulticastSocket;
 
-public class Client implements Runnable {
+public class ForecasterSubscriber implements Runnable {
 
     public static void main(String[] args) {
-        Thread t = new Thread(new Client());
+        Thread t = new Thread(new ForecasterSubscriber());
         t.start();
     }
 

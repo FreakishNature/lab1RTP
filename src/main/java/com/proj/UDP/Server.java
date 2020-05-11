@@ -18,7 +18,7 @@ public class Server {
 
         DatagramPacket packet = new DatagramPacket(msg, msg.length,
                 group, port);
-        System.out.println("Sending msg: " + message);
+//        System.out.println("Sending msg: " + message);
         socket.send(packet);
         socket.close();
     }

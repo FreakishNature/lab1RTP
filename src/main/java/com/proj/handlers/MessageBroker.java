@@ -18,11 +18,9 @@ public class MessageBroker extends Handler {
     int port = 4321;
 
     public static Map<String,Topic> topics = new HashMap<>();
-    public static String UNITE_SUBSCRIBER_HOST = "230.0.0.10";
-    public static String UNITE_BROKER_HOST = "230.0.0.10";
-    public static int UNITE_PORT = 4000;
 
     static {
+        topics.put("COLLECTOR",new Topic("230.0.0.10",4000));
         topics.put("DATA_UNITED",new Topic("230.0.0.0",4005));
 
         topics.put("IOT",new Topic("230.0.0.1",4001));
@@ -59,11 +57,11 @@ public class MessageBroker extends Handler {
         }
 
         if(msg instanceof Sensor){
-//            Server.sendUDPMessage(
-//                    mapper.writeValueAsString(msg),
-//                    topics.get("DATA_UNITED").getHost(),
-//                    topics.get("DATA_UNITED").getPort()
-//            );
+            Server.sendUDPMessage(
+                    mapper.writeValueAsString(msg),
+                    topics.get("DATA_UNITED").getHost(),
+                    topics.get("DATA_UNITED").getPort()
+            );
         }
 
     }
