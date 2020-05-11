@@ -20,7 +20,7 @@ public class LegacySensorReceiver extends Handler {
             throw new IOException("Panic exception");
         }
 
-        system.sendMessage("processor",
+        system.sendMessage("broker",
             xmlMapper.readValue(mapper.readValue(msg.toString(), LegacySensors.class).getMessage(), LegacySensorsXml.class)
         );
     }

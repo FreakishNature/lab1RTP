@@ -1,5 +1,7 @@
 package com.proj.UDP;
 
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.databind.ObjectMapper;
 import com.proj.handlers.MessageBroker;
 import com.proj.model.*;
 
@@ -14,82 +16,92 @@ import java.util.Set;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ConcurrentSkipListSet;
 
-public class ClienCollector implements Runnable {
-    Map<String, Iot> iotSensors = new ConcurrentHashMap<>();
-    Map<String, Sensors> sensors = new ConcurrentHashMap<>();
-    Map<String, LegacySensorsXml> legacySensors = new ConcurrentHashMap<>();
-    Set<String> timestamps = new ConcurrentSkipListSet<>();
+public class ClientCollector  {
+    static ObjectMapper mapper = new ObjectMapper();
+    static Map<String, Iot> iotSensors = new ConcurrentHashMap<>();
+    static Map<String, Sensors> sensors = new ConcurrentHashMap<>();
+    static Map<String, LegacySensorsXml> legacySensors = new ConcurrentHashMap<>();
+    static Set<String> timestamps = new ConcurrentSkipListSet<>();
 
-    void sendMessage(Sensor sensor) throws IOException {
-        Server.sendUDPMessage(sensor, MessageBroker.UNITE_BROKER_HOST, 4001);
+    static void sendMessage(String sensor) throws IOException {
+//        System.out.println(sensor);
+        Server.sendUDPMessage(sensor, MessageBroker.topics.get("DATA_UNITED").host, MessageBroker.topics.get("DATA_UNITED").port);
     }
 
-    void collect(Object msg){
-        if(msg instanceof Iot){
-            Iot sensor = (Iot)msg;
-            iotSensors.put(sensor.getTimestamp(),sensor);
-            timestamps.add(sensor.getTimestamp());
+    static String aproximateTime(String timestamp){
+        return String.valueOf((Math.floor(Double.parseDouble(timestamp) / 1000 )));
+    }
+
+    static void collect(Object msg, String topic) throws JsonProcessingException {
+        if(topic.equals("IOT")){
+            Iot sensor = mapper.readValue(msg.toString(),Iot.class);
+            iotSensors.put(aproximateTime(sensor.getTimestamp()), sensor);
+            timestamps.add(aproximateTime(sensor.getTimestamp()));
         }
-        if(msg instanceof Sensors){
-            Sensors sensor = (Sensors)msg;
-            sensors.put(sensor.getTimestamp(),sensor);
-            timestamps.add(sensor.getTimestamp());
+        if(topic.equals("SENSORS")){
+            Sensors sensor = mapper.readValue(msg.toString(),Sensors.class);
+            sensors.put(aproximateTime(sensor.getTimestamp()),sensor);
+            timestamps.add(aproximateTime(sensor.getTimestamp()));
 
         }
-        if(msg instanceof LegacySensorsXml){
-            LegacySensorsXml sensor = (LegacySensorsXml)msg;
-            legacySensors.put(sensor.getUnix_timestamp_100us(),sensor);
-            timestamps.add(sensor.getUnix_timestamp_100us());
+        if(topic.equals("LEGACY_SENSORS")){
+            LegacySensorsXml sensor = mapper.readValue(msg.toString(),LegacySensorsXml.class);
+            legacySensors.put(aproximateTime(sensor.getUnix_timestamp_100us()),sensor);
+            timestamps.add(aproximateTime(sensor.getUnix_timestamp_100us()));
         }
+        synchronized (ClientCollector.class){
+            timestamps.forEach(ts -> {
+                if( iotSensors.get(ts) != null &&
+                        sensors.get(ts) != null &&
+                        legacySensors.get(ts) != null){
 
-        timestamps.forEach(ts -> {
-            if( iotSensors.get(ts) != null &&
-                    sensors.get(ts) != null &&
-                    legacySensors.get(ts) != null){
+                    MessageSensor1 messageSensor1 = new MessageSensor1(
+                            legacySensors.get(ts).getTemperature_celsius().getValue().get(0),
+                            legacySensors.get(ts).getHumidity_percent().getValue().get(0),
+                            iotSensors.get(ts).getWindSpeedSensor1(),
+                            iotSensors.get(ts).getAtmoPressureSensor1(),
+                            sensors.get(ts).getLightSensor1()
+                    );
 
-                MessageSensor1 messageSensor1 = new MessageSensor1(
-                        legacySensors.get(ts).getTemperature_celsius().getValue().get(0),
-                        legacySensors.get(ts).getHumidity_percent().getValue().get(0),
-                        iotSensors.get(ts).getWindSpeedSensor1(),
-                        iotSensors.get(ts).getAtmoPressureSensor1(),
-                        sensors.get(ts).getLightSensor1()
-                );
+                    MessageSensor1 messageSensor2 = new MessageSensor1(
+                            legacySensors.get(ts).getTemperature_celsius().getValue().get(1),
+                            legacySensors.get(ts).getHumidity_percent().getValue().get(1),
+                            iotSensors.get(ts).getWindSpeedSensor2(),
+                            iotSensors.get(ts).getAtmoPressureSensor2(),
+                            sensors.get(ts).getLightSensor2()
+                    );
 
-                MessageSensor2 messageSensor2 = new MessageSensor2(
-                        legacySensors.get(ts).getTemperature_celsius().getValue().get(1),
-                        legacySensors.get(ts).getHumidity_percent().getValue().get(1),
-                        iotSensors.get(ts).getWindSpeedSensor2(),
-                        iotSensors.get(ts).getAtmoPressureSensor2(),
-                        sensors.get(ts).getLightSensor2()
-                );
+                    iotSensors.remove(ts);
+                    sensors.remove(ts);
+                    legacySensors.remove(ts);
+                    timestamps.remove(ts);
 
-                try {
-                    sendMessage(messageSensor1);
-                    sendMessage(messageSensor2);
-                } catch (IOException e) {
-                    e.printStackTrace();
+                    try {
+                        sendMessage(mapper.writeValueAsString(messageSensor1));
+                        sendMessage(mapper.writeValueAsString(messageSensor2));
+                    } catch (IOException e) {
+                        e.printStackTrace();
+                    }
                 }
-            }
-        });
+            });
+        }
     }
 
-    public void receiveUDPObject(String ip, int port) throws IOException, ClassNotFoundException {
-        byte[] buffer = new byte[1024];
+    public static void receiveUDPMessage(String topic) throws IOException, ClassNotFoundException {
+        String ip = MessageBroker.topics.get(topic).host;
+        int port = MessageBroker.topics.get(topic).port;
+
+        byte[] buffer = new byte[2048];
         MulticastSocket socket = new MulticastSocket(port);
         InetAddress group = InetAddress.getByName(ip);
         socket.joinGroup(group);
         while (true) {
-            System.out.println("Waiting for multicast message...");
             DatagramPacket packet = new DatagramPacket(buffer, buffer.length);
             socket.receive(packet);
 
-            ObjectInputStream iStream = new ObjectInputStream(new ByteArrayInputStream(packet.getData()));
-            Object receivedObject = iStream.readObject();
-            iStream.close();
-
-            collect(receivedObject);
-
             String msg = new String(packet.getData(), packet.getOffset(), packet.getLength());
+
+            collect(msg,topic);
 
             if ("STOP".equals(msg)) {
                 System.out.println("No more messages. Stopping : " + msg);
@@ -100,17 +112,40 @@ public class ClienCollector implements Runnable {
         socket.close();
     }
 
-    @Override
-    public void run() {
-        try {
-            receiveUDPObject(MessageBroker.UNITE_BROKER_HOST, 4001);
-        } catch (IOException | ClassNotFoundException ex) {
-            ex.printStackTrace();
-        }
-    }
 
-    public static void main(String[] args) {
-        Thread t = new Thread(new Client());
-        t.start();
+
+    public static void main(String[] args) throws IOException, ClassNotFoundException, InterruptedException {
+
+        Thread legacyThread = new Thread(()->{
+            try {
+                receiveUDPMessage("LEGACY_SENSORS");
+            } catch (IOException | ClassNotFoundException e) {
+                e.printStackTrace();
+            }
+        });
+
+        Thread sensorsThread = new Thread(()->{
+            try {
+                receiveUDPMessage("SENSORS");
+            } catch (IOException | ClassNotFoundException e) {
+                e.printStackTrace();
+            }
+        });
+
+        Thread iorThread = new Thread(()->{
+            try {
+                receiveUDPMessage("IOT");
+            } catch (IOException | ClassNotFoundException e) {
+                e.printStackTrace();
+            }
+        });
+
+        legacyThread.start();
+        sensorsThread.start();
+        iorThread.start();
+
+        legacyThread.join();
+        sensorsThread.join();
+        iorThread.join();
     }
 }

@@ -2,12 +2,12 @@ package com.proj.handlers;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.proj.actors.Handler;
-import com.proj.model.Iot;
 import com.proj.model.IotResponse;
+import com.proj.model.MessageSensor1;
 
 import java.io.IOException;
 
-public class IotReceiver extends Handler {
+public class UnitedReceiver extends Handler {
     ObjectMapper mapper = new ObjectMapper();
 
     @Override
@@ -17,7 +17,7 @@ public class IotReceiver extends Handler {
             throw new IOException("Panic exception");
         }
         system.sendMessage("broker",
-                mapper.readValue(msg.toString(), IotResponse.class).getMessage()
+                mapper.readValue(msg.toString(), MessageSensor1.class)
         );
     }
 }

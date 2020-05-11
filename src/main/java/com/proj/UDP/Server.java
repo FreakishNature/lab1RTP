@@ -1,6 +1,9 @@
 package com.proj.UDP;
 
+import java.io.ByteArrayOutputStream;
 import java.io.IOException;
+import java.io.ObjectOutput;
+import java.io.ObjectOutputStream;
 import java.net.DatagramPacket;
 import java.net.DatagramSocket;
 import java.net.InetAddress;
@@ -12,6 +15,7 @@ public class Server {
         DatagramSocket socket = new DatagramSocket();
         InetAddress group = InetAddress.getByName(address);
         byte[] msg = message.getBytes();
+
         DatagramPacket packet = new DatagramPacket(msg, msg.length,
                 group, port);
         System.out.println("Sending msg: " + message);

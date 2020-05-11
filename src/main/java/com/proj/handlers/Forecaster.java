@@ -29,9 +29,6 @@ public class Forecaster extends Handler {
                 return;
             }
 
-            String forecastSensors = msg instanceof MessageSensor1 ? "Forecast 1 : " : "Forecast 2 : ";
-
-
             double temperatureSensor = 0;
             double atmoPressureSensor = 0;
             double humiditySensor = 0;
@@ -60,16 +57,19 @@ public class Forecaster extends Handler {
                     lightSensor
             );
 
-            String forecast = doForecast(message);
-            sensorDatas.clear();
-            system.sendMessage("printer",
-                    "\n" + forecastSensors + forecast +
-                            "\n Temperature - " + message.getTemperatureSensor() +
-                            "\n Humidity - " + message.getHumiditySensor() +
-                            "\n Atmosphere pressure - " + message.getAtmoPressureSensor() +
-                            "\n Light - " + message.getLightSensor() +
-                            "\n Wind speed - " + message.getWindSpeedSensor()
-            );
+            system.sendMessage("dataSender", message);
+
+
+//            String forecast = doForecast(message);
+//            sensorDatas.clear();
+//            system.sendMessage("printer",
+//                    "\n" + forecastSensors + forecast +
+//                            "\n Temperature - " + message.getTemperatureSensor() +
+//                            "\n Humidity - " + message.getHumiditySensor() +
+//                            "\n Atmosphere pressure - " + message.getAtmoPressureSensor() +
+//                            "\n Light - " + message.getLightSensor() +
+//                            "\n Wind speed - " + message.getWindSpeedSensor()
+//            );
     }
 
     private static String doForecast(Sensor message) {

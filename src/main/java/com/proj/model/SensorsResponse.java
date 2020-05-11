@@ -2,15 +2,15 @@ package com.proj.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
-public class LegacySensors {
+public class SensorsResponse {
     @JsonProperty("message")
-    String message;
+    Sensors message;
 
-    public String getMessage() {
+    public Sensors getMessage() {
         return message;
     }
 
-    public void setMessage(String message) {
+    public void setMessage(Sensors message) {
         this.message = message;
     }
 }
