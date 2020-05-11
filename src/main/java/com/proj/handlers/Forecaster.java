@@ -29,15 +29,6 @@ public class Forecaster extends Handler {
                 return;
             }
 
-//        if(sensorDatas.size() <= AMOUNT_OF_FORECASTING_DATA){
-//            sensorDatas.add((Sensor)msg);
-//        }
-//
-//        if(sensorDatas.size() != AMOUNT_OF_FORECASTING_DATA){
-//            return;
-//        }
-
-
             String forecastSensors = msg instanceof MessageSensor1 ? "Forecast 1 : " : "Forecast 2 : ";
 
 

@@ -47,4 +47,5 @@ public class MessageSensor1 implements Sensor {
 
     public MessageSensor1() {
     }
+
 }
